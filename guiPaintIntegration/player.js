@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 722:
+/***/ 594:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14,37 +14,37 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(37);
+var _reactDom = __webpack_require__(31);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRedux = __webpack_require__(16);
+var _reactRedux = __webpack_require__(12);
 
-var _appStateHoc = __webpack_require__(94);
+var _appStateHoc = __webpack_require__(73);
 
 var _appStateHoc2 = _interopRequireDefault(_appStateHoc);
 
-var _controls = __webpack_require__(118);
+var _controls = __webpack_require__(89);
 
 var _controls2 = _interopRequireDefault(_controls);
 
-var _stage = __webpack_require__(250);
+var _stage = __webpack_require__(195);
 
 var _stage2 = _interopRequireDefault(_stage);
 
-var _box = __webpack_require__(15);
+var _box = __webpack_require__(11);
 
 var _box2 = _interopRequireDefault(_box);
 
-var _gui = __webpack_require__(114);
+var _gui = __webpack_require__(85);
 
 var _gui2 = _interopRequireDefault(_gui);
 
-var _projectLoaderHoc = __webpack_require__(121);
+var _projectLoaderHoc = __webpack_require__(92);
 
 var _projectLoaderHoc2 = _interopRequireDefault(_projectLoaderHoc);
 
-__webpack_require__(723);
+__webpack_require__(595);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -144,13 +144,13 @@ _reactDom2.default.render(_react2.default.createElement(App, null), appTarget);
 
 /***/ }),
 
-/***/ 723:
+/***/ 595:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(724);
+var content = __webpack_require__(596);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -158,7 +158,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(4)(content, options);
+var update = __webpack_require__(3)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -176,10 +176,10 @@ if(false) {
 
 /***/ }),
 
-/***/ 724:
+/***/ 596:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(undefined);
+exports = module.exports = __webpack_require__(2)(undefined);
 // imports
 
 
@@ -191,5 +191,5 @@ exports.push([module.i, "body {\n    padding: 0;\n    margin: 0;\n}\n", ""]);
 
 /***/ })
 
-},[722]);
+},[594]);
 //# sourceMappingURL=player.js.map
