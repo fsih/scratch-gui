@@ -79,6 +79,7 @@ const vmListenerHOC = function (WrappedComponent) {
                 onKeyDown,
                 onKeyUp,
                 onMonitorsUpdate,
+                onBlockDragUpdate,
                 onTargetsUpdate,
                 /* eslint-enable no-unused-vars */
                 ...props

@@ -1,12 +1,27 @@
 const BLOCK_DRAG_UPDATE = 'scratch-gui/blockdrag/BLOCK_DRAG_UPDATE';
+const BLOCK_DRAG_END = 'scratch-gui/blockdrag/BLOCK_DRAG_END';
 
-const initialState = false;
+const initialState = {
+    areBlocksOverGui: false,
+    blockSvg: null,
+    spriteId: null
+};
 
 const reducer = function (state, action) {
     if (typeof state === 'undefined') state = initialState;
     switch (action.type) {
     case BLOCK_DRAG_UPDATE:
-        return action.areBlocksOverGui;
+        return {
+            areBlocksOverGui: action.areBlocksOverGui,
+            blockSvg: null,
+            spriteId: null
+        };
+    case BLOCK_DRAG_END:
+        return {
+            areBlocksOverGui: false,
+            blockSvg: action.blockSvg,
+            spriteId: action.spriteId
+        };
     default:
         return state;
     }
@@ -22,7 +37,16 @@ const updateBlockDrag = function (areBlocksOverGui) {
     };
 };
 
+const updateEndDrag = function (spriteId, blockSvg) {
+    return {
+        type: BLOCK_DRAG_END,
+        spriteId: spriteId,
+        blockSvg: blockSvg
+    };
+};
+
 export {
     reducer as default,
-    updateBlockDrag
+    updateBlockDrag,
+    updateEndDrag
 };

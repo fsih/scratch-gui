@@ -17,6 +17,7 @@ import {connect} from 'react-redux';
 import {updateToolbox} from '../reducers/toolbox';
 import {activateColorPicker} from '../reducers/color-picker';
 import {closeExtensionLibrary} from '../reducers/modals';
+import {updateEndDrag} from '../reducers/blockdrag';
 import {activateCustomProcedures, deactivateCustomProcedures} from '../reducers/custom-procedures';
 
 const addFunctionListener = (object, property, callback) => {
@@ -46,6 +47,7 @@ class Blocks extends React.Component {
             'onBlockGlowOff',
             'handleExtensionAdded',
             'handleBlocksInfoUpdate',
+            'onEndBlockDrag',
             'onTargetsUpdate',
             'onVisualReport',
             'onWorkspaceUpdate',
@@ -130,6 +132,7 @@ class Blocks extends React.Component {
         this.props.vm.addListener('VISUAL_REPORT', this.onVisualReport);
         this.props.vm.addListener('workspaceUpdate', this.onWorkspaceUpdate);
         this.props.vm.addListener('targetsUpdate', this.onTargetsUpdate);
+        this.props.vm.addListener('endBlockDrag', this.onEndBlockDrag);
         this.props.vm.addListener('EXTENSION_ADDED', this.handleExtensionAdded);
         this.props.vm.addListener('BLOCKSINFO_UPDATE', this.handleBlocksInfoUpdate);
     }
@@ -141,6 +144,7 @@ class Blocks extends React.Component {
         this.props.vm.removeListener('VISUAL_REPORT', this.onVisualReport);
         this.props.vm.removeListener('workspaceUpdate', this.onWorkspaceUpdate);
         this.props.vm.removeListener('targetsUpdate', this.onTargetsUpdate);
+        this.props.vm.removeListener('endBlockDrag', this.onEndBlockDrag);
         this.props.vm.removeListener('EXTENSION_ADDED', this.handleExtensionAdded);
         this.props.vm.removeListener('BLOCKSINFO_UPDATE', this.handleBlocksInfoUpdate);
     }
@@ -160,6 +164,9 @@ class Blocks extends React.Component {
                 this.updateToolboxBlockValue(`${prefix}y`, Math.round(this.props.vm.editingTarget.y).toString());
             });
         }
+    }
+    onEndBlockDrag (data) {
+        this.props.updateEndDragState(data.spriteId, data.blockSvg);
     }
     onWorkspaceMetricsChange () {
         const target = this.props.vm.editingTarget;
@@ -263,6 +270,7 @@ class Blocks extends React.Component {
             vm,
             isVisible,
             onActivateColorPicker,
+            updateEndDragState,
             updateToolboxState,
             onActivateCustomProcedures,
             onRequestCloseExtensionLibrary,
@@ -340,7 +348,8 @@ Blocks.propTypes = {
         collapse: PropTypes.bool
     }),
     toolboxXML: PropTypes.string,
-    updateToolboxState: PropTypes.func,
+    updateEndDragState: PropTypes.func.isRequired,
+    updateToolboxState: PropTypes.func.isRequired,
     vm: PropTypes.instanceOf(VM).isRequired
 };
 
@@ -395,6 +404,9 @@ const mapDispatchToProps = dispatch => ({
     },
     updateToolboxState: toolboxXML => {
         dispatch(updateToolbox(toolboxXML));
+    },
+    updateEndDragState: (spriteId, blockSvg) => {
+        dispatch(updateEndDrag(spriteId, blockSvg));
     }
 });
 

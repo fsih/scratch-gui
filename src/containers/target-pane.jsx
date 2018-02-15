@@ -52,7 +52,7 @@ class TargetPane extends React.Component {
     handleDuplicateSprite (id) {
         this.props.vm.duplicateSprite(id);
     }
-    handleMouseOutSprite () {
+    handleMouseOutSprite (id) {
         this.props.vm.setHoveredSprite(null);
     }
     handleMouseOverSprite (id) {
@@ -102,7 +102,7 @@ const mapStateToProps = state => ({
         return sprites;
     }, {}),
     stage: state.targets.stage,
-    raiseSprites: state.blockdrag,
+    raiseSprites: state.blockdrag.areBlocksOverGui,
     spriteLibraryVisible: state.modals.spriteLibrary,
     backdropLibraryVisible: state.modals.backdropLibrary
 });

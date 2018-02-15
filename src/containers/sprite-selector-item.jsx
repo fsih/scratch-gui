@@ -1,9 +1,10 @@
 import bindAll from 'lodash.bindall';
 import PropTypes from 'prop-types';
 import React from 'react';
-
+import classNames from 'classnames';
 import {connect} from 'react-redux';
 
+import styles from '../components/sprite-selector-item/sprite-selector-item.css';
 import SpriteSelectorItemComponent from '../components/sprite-selector-item/sprite-selector-item.jsx';
 
 class SpriteSelectorItem extends React.Component {
@@ -16,6 +17,34 @@ class SpriteSelectorItem extends React.Component {
             'handleMouseOut',
             'handleMouseOver'
         ]);
+    }
+    componentWillReceiveProps (nextProps) {
+        if (this.props.endDragSvg === null && nextProps.endDragSvg !== null) {
+            //document.body.appendChild(nextProps.endDragSvg);
+            nextProps.endDragSvg.children[0].children[0].setAttribute('class',
+                classNames(nextProps.endDragSvg.children[0].children[0].getAttribute('class'), styles.blockShoop));
+            const whichAnimationEvent = function (element) {
+                let t;
+
+                const animations = {
+                    animation: 'animationend',
+                    OAnimation: 'oAnimationEnd',
+                    MozAnimation: 'animationend',
+                    WebkitAnimation: 'webkitAnimationEnd'
+                };
+                for (t in animations){
+                    if (typeof element.style[t] !== 'undefined'){
+                        return animations[t];
+                    }
+                }
+            };
+            const animationEvent = whichAnimationEvent(nextProps.endDragSvg);
+            const listener = function () {
+                nextProps.endDragSvg.removeEventListener(animationEvent, listener);
+                nextProps.endDragSvg.parentElement.removeChild(nextProps.endDragSvg);
+            };
+            nextProps.endDragSvg.addEventListener(animationEvent, listener);
+        }
     }
     handleClick (e) {
         e.preventDefault();
@@ -68,6 +97,8 @@ SpriteSelectorItem.propTypes = {
     assetId: PropTypes.string,
     costumeURL: PropTypes.string,
     id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    endDragSpriteId: PropTypes.string,
+    endDragSvg: PropTypes.object,
     name: PropTypes.string,
     onClick: PropTypes.func,
     onDeleteButtonClick: PropTypes.func,
@@ -77,8 +108,9 @@ SpriteSelectorItem.propTypes = {
     selected: PropTypes.bool
 };
 
-const mapStateToProps = (state, {assetId, costumeURL}) => ({
-    costumeURL: costumeURL || (assetId && state.vm.runtime.storage.get(assetId).encodeDataURI())
+const mapStateToProps = (state, {id, assetId, costumeURL}) => ({
+    costumeURL: costumeURL || (assetId && state.vm.runtime.storage.get(assetId).encodeDataURI()),
+    endDragSvg: state.blockdrag.spriteId === id ? state.blockdrag.blockSvg : null
 });
 
 export default connect(
