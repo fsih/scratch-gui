@@ -1,7 +1,7 @@
 var GUI =
 webpackJsonpGUI([0],{
 
-/***/ 141:
+/***/ 155:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9,7 +9,7 @@ webpackJsonpGUI([0],{
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-__webpack_require__(142);
+__webpack_require__(156);
 
 var _react = __webpack_require__(0);
 
@@ -19,7 +19,7 @@ var _reactDom = __webpack_require__(12);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactModal = __webpack_require__(18);
+var _reactModal = __webpack_require__(17);
 
 var _reactModal2 = _interopRequireDefault(_reactModal);
 
@@ -27,15 +27,15 @@ var _analytics = __webpack_require__(10);
 
 var _analytics2 = _interopRequireDefault(_analytics);
 
-var _gui = __webpack_require__(22);
+var _gui = __webpack_require__(23);
 
 var _gui2 = _interopRequireDefault(_gui);
 
-var _errorBoundaryHoc = __webpack_require__(499);
+var _errorBoundaryHoc = __webpack_require__(55);
 
 var _errorBoundaryHoc2 = _interopRequireDefault(_errorBoundaryHoc);
 
-var _index = __webpack_require__(505);
+var _index = __webpack_require__(563);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -63,18 +63,18 @@ _reactDom2.default.render(_react2.default.createElement(App, null), appTarget);
 
 /***/ }),
 
-/***/ 142:
+/***/ 156:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(143).polyfill();
+__webpack_require__(157).polyfill();
 
 
 /***/ }),
 
-/***/ 143:
+/***/ 157:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -128,7 +128,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 499:
+/***/ 55:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -142,7 +142,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _errorBoundary = __webpack_require__(500);
+var _errorBoundary = __webpack_require__(56);
 
 var _errorBoundary2 = _interopRequireDefault(_errorBoundary);
 
@@ -168,7 +168,7 @@ exports.default = ErrorBoundaryHOC;
 
 /***/ }),
 
-/***/ 500:
+/***/ 56:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -188,19 +188,19 @@ var _propTypes = __webpack_require__(1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _platform = __webpack_require__(49);
+var _platform = __webpack_require__(29);
 
 var _platform2 = _interopRequireDefault(_platform);
 
-var _browserModal = __webpack_require__(128);
+var _browserModal = __webpack_require__(54);
 
 var _browserModal2 = _interopRequireDefault(_browserModal);
 
-var _crashMessage = __webpack_require__(501);
+var _crashMessage = __webpack_require__(57);
 
 var _crashMessage2 = _interopRequireDefault(_crashMessage);
 
-var _log = __webpack_require__(19);
+var _log = __webpack_require__(16);
 
 var _log2 = _interopRequireDefault(_log);
 
@@ -277,162 +277,11 @@ exports.default = ErrorBoundary;
 
 /***/ }),
 
-/***/ 501:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _propTypes = __webpack_require__(1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _box = __webpack_require__(6);
-
-var _box2 = _interopRequireDefault(_box);
-
-var _crashMessage = __webpack_require__(502);
-
-var _crashMessage2 = _interopRequireDefault(_crashMessage);
-
-var _reload = __webpack_require__(504);
-
-var _reload2 = _interopRequireDefault(_reload);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var CrashMessage = function CrashMessage(props) {
-    return _react2.default.createElement(
-        'div',
-        { className: _crashMessage2.default.crashWrapper },
-        _react2.default.createElement(
-            _box2.default,
-            { className: _crashMessage2.default.body },
-            _react2.default.createElement('img', {
-                className: _crashMessage2.default.reloadIcon,
-                src: _reload2.default
-            }),
-            _react2.default.createElement(
-                'h2',
-                null,
-                'Oops! Something went wrong.'
-            ),
-            _react2.default.createElement(
-                'p',
-                null,
-                'We are so sorry, but it looks like Scratch has crashed. This bug has been automatically reported to the Scratch Team. Please refresh your page to try again.'
-            ),
-            _react2.default.createElement(
-                'button',
-                {
-                    className: _crashMessage2.default.reloadButton,
-                    onClick: props.onReload
-                },
-                'Reload'
-            )
-        )
-    );
-};
-
-CrashMessage.propTypes = {
-    onReload: _propTypes2.default.func.isRequired
-};
-
-exports.default = CrashMessage;
-
-/***/ }),
-
-/***/ 502:
+/***/ 563:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(503);
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(3)(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {
-	module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??postcss!./crash-message.css", function() {
-		var newContent = require("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??postcss!./crash-message.css");
-
-		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-
-		var locals = (function(a, b) {
-			var key, idx = 0;
-
-			for(key in a) {
-				if(!b || a[key] !== b[key]) return false;
-				idx++;
-			}
-
-			for(key in b) idx--;
-
-			return idx === 0;
-		}(content.locals, newContent.locals));
-
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
-
-		update(newContent);
-	});
-
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-
-/***/ 503:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(false);
-// imports
-
-
-// module
-exports.push([module.i, "/* #E5F0FF */ /* #E9F1FC */ /* #D9E3F2 */ /* 90% transparent version of motion-primary */ /* #FFFFFF */ /* 25% transparent version of ui-white */ /* 15% transparent version of black */ /* #575E75 */ /* #4C97FF */ /* #3373CC */ /* 35% transparent version of motion-primary */ /* #FF661A */ /* #E64D00 */ /* #CF63CF */ /* #BD42BD */ /* #FFAB19 */ /* #FF8C1A */ /* #0FBD8C */ /* layout contants from `layout-constants.js` */ body {\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n} h2 {\n    font-size: 1.5rem;\n    font-weight: bold;\n} p {\n    font-size: 1rem;\n    line-height: 1.5em;\n} .crash-message_crash-wrapper_25B61 {\n    background-color: hsla(215, 100%, 65%, 1);\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n} .crash-message_body_1q0lu {\n    width: 35%;\n    color: white;\n    text-align: center;\n} .crash-message_reloadButton_FoS7x {\n    border: 1px solid hsla(215, 100%, 65%, 1);\n    border-radius: 0.25rem;\n    padding: 0.5rem 2rem;\n    background: white;\n    color: hsla(215, 100%, 65%, 1);\n    font-weight: bold;\n    font-size: 0.875rem;\n    cursor: pointer;\n}\n", ""]);
-
-// exports
-exports.locals = {
-	"crash-wrapper": "crash-message_crash-wrapper_25B61",
-	"crashWrapper": "crash-message_crash-wrapper_25B61",
-	"body": "crash-message_body_1q0lu",
-	"reloadButton": "crash-message_reloadButton_FoS7x"
-};
-
-/***/ }),
-
-/***/ 504:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/dd98971c2c185caf86144b6b5234d0fa.svg";
-
-/***/ }),
-
-/***/ 505:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(506);
+var content = __webpack_require__(564);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -479,7 +328,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 506:
+/***/ 564:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -494,7 +343,168 @@ exports.locals = {
 	"app": "index_app_3Qs6X"
 };
 
+/***/ }),
+
+/***/ 57:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _propTypes = __webpack_require__(1);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _box = __webpack_require__(7);
+
+var _box2 = _interopRequireDefault(_box);
+
+var _reactIntl = __webpack_require__(5);
+
+var _crashMessage = __webpack_require__(58);
+
+var _crashMessage2 = _interopRequireDefault(_crashMessage);
+
+var _reload = __webpack_require__(60);
+
+var _reload2 = _interopRequireDefault(_reload);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var CrashMessage = function CrashMessage(props) {
+    return _react2.default.createElement(
+        'div',
+        { className: _crashMessage2.default.crashWrapper },
+        _react2.default.createElement(
+            _box2.default,
+            { className: _crashMessage2.default.body },
+            _react2.default.createElement('img', {
+                className: _crashMessage2.default.reloadIcon,
+                src: _reload2.default
+            }),
+            _react2.default.createElement(
+                'h2',
+                null,
+                _react2.default.createElement(_reactIntl.FormattedMessage, {
+                    defaultMessage: 'Oops! Something went wrong.',
+
+                    id: 'gui.crashMessage.title'
+                })
+            ),
+            _react2.default.createElement(
+                'p',
+                null,
+                _react2.default.createElement(_reactIntl.FormattedMessage, {
+                    defaultMessage: 'We are so sorry, but it looks like Scratch has crashed. This bug has been automatically reported to the Scratch Team. Please refresh your page to try again.',
+
+                    id: 'gui.crashMessage.description'
+                })
+            ),
+            _react2.default.createElement(
+                'button',
+                {
+                    className: _crashMessage2.default.reloadButton,
+                    onClick: props.onReload
+                },
+                'Reload'
+            )
+        )
+    );
+};
+
+CrashMessage.propTypes = {
+    onReload: _propTypes2.default.func.isRequired
+};
+
+exports.default = CrashMessage;
+
+/***/ }),
+
+/***/ 58:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(59);
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(3)(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {
+	module.hot.accept("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??postcss!./crash-message.css", function() {
+		var newContent = require("!!../../../node_modules/css-loader/index.js??ref--1-1!../../../node_modules/postcss-loader/lib/index.js??postcss!./crash-message.css");
+
+		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ 59:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* #E5F0FF */ /* #E9F1FC */ /* #D9E3F2 */ /* 90% transparent version of motion-primary */ /* #FFFFFF */ /* 25% transparent version of ui-white */ /* 15% transparent version of black */ /* #575E75 */ /* #4C97FF */ /* #3373CC */ /* 35% transparent version of motion-primary */ /* #FF661A */ /* #E64D00 */ /* #CF63CF */ /* #BD42BD */ /* #FFAB19 */ /* #FF8C1A */ /* #0FBD8C */ /* layout contants from `layout-constants.js` */ body {\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n} h2 {\n    font-size: 1.5rem;\n    font-weight: bold;\n} p {\n    font-size: 1rem;\n    line-height: 1.5em;\n} .crash-message_crash-wrapper_25B61 {\n    background-color: hsla(215, 100%, 65%, 1);\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n} .crash-message_body_1q0lu {\n    width: 35%;\n    color: white;\n    text-align: center;\n} .crash-message_reloadButton_FoS7x {\n    border: 1px solid hsla(215, 100%, 65%, 1);\n    border-radius: 0.25rem;\n    padding: 0.5rem 2rem;\n    background: white;\n    color: hsla(215, 100%, 65%, 1);\n    font-weight: bold;\n    font-size: 0.875rem;\n    cursor: pointer;\n}\n", ""]);
+
+// exports
+exports.locals = {
+	"crash-wrapper": "crash-message_crash-wrapper_25B61",
+	"crashWrapper": "crash-message_crash-wrapper_25B61",
+	"body": "crash-message_body_1q0lu",
+	"reloadButton": "crash-message_reloadButton_FoS7x"
+};
+
+/***/ }),
+
+/***/ 60:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/dd98971c2c185caf86144b6b5234d0fa.svg";
+
 /***/ })
 
-},[141]);
+},[155]);
 //# sourceMappingURL=gui.js.map
