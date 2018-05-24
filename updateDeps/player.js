@@ -65,13 +65,17 @@ var _box = __webpack_require__(12);
 
 var _box2 = _interopRequireDefault(_box);
 
-var _gui = __webpack_require__(68);
+var _gui = __webpack_require__(72);
 
 var _gui2 = _interopRequireDefault(_gui);
 
-var _hashParserHoc = __webpack_require__(56);
+var _hashParserHoc = __webpack_require__(57);
 
 var _hashParserHoc2 = _interopRequireDefault(_hashParserHoc);
+
+var _appStateHoc = __webpack_require__(56);
+
+var _appStateHoc2 = _interopRequireDefault(_appStateHoc);
 
 var _player = __webpack_require__(200);
 
@@ -79,7 +83,7 @@ var _player2 = _interopRequireDefault(_player);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var WrappedGui = (0, _hashParserHoc2.default)(_gui2.default);
+var WrappedGui = (0, _hashParserHoc2.default)((0, _appStateHoc2.default)(_gui2.default));
 
 if ("production" === 'production' && (typeof window === 'undefined' ? 'undefined' : _typeof(window)) === 'object') {
     // Warn before navigating away
