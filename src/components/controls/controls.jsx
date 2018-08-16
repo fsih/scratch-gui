@@ -30,6 +30,7 @@ const Controls = function (props) {
         onGreenFlagClick,
         onStopAllClick,
         turbo,
+        dispatch,
         ...componentProps
     } = props;
     return (
