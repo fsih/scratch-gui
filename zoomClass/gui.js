@@ -1,11 +1,11 @@
 var GUI =
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([[1],{
 
-/***/ 1518:
+/***/ 1620:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(1519);
+var content = __webpack_require__(1621);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -19,7 +19,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(5)(content, options);
+var update = __webpack_require__(6)(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -27,10 +27,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ 1519:
+/***/ 1621:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(4)(false);
+exports = module.exports = __webpack_require__(5)(false);
 // imports
 
 
@@ -44,7 +44,7 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 463:
+/***/ 494:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53,37 +53,37 @@ exports.locals = {
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; // Polyfills
 // For Safari 9
 
-__webpack_require__(464);
+__webpack_require__(495);
 
-__webpack_require__(466);
+__webpack_require__(497);
 
-__webpack_require__(490);
+__webpack_require__(521);
 
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(34);
+var _reactDom = __webpack_require__(38);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _analytics = __webpack_require__(28);
+var _analytics = __webpack_require__(32);
 
 var _analytics2 = _interopRequireDefault(_analytics);
 
-var _gui = __webpack_require__(130);
+var _gui = __webpack_require__(140);
 
 var _gui2 = _interopRequireDefault(_gui);
 
-var _hashParserHoc = __webpack_require__(175);
+var _hashParserHoc = __webpack_require__(186);
 
 var _hashParserHoc2 = _interopRequireDefault(_hashParserHoc);
 
-var _appStateHoc = __webpack_require__(176);
+var _appStateHoc = __webpack_require__(187);
 
 var _appStateHoc2 = _interopRequireDefault(_appStateHoc);
 
-var _index = __webpack_require__(1518);
+var _index = __webpack_require__(1620);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -119,12 +119,12 @@ _reactDom2.default.render(_react2.default.createElement(WrappedGui, { backpackOp
 
 /***/ }),
 
-/***/ 492:
+/***/ 523:
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ })
 
-},[[463,0]]]);
+},[[494,0]]]);
 //# sourceMappingURL=gui.js.map
