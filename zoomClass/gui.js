@@ -1,11 +1,11 @@
 var GUI =
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([[1],{
 
-/***/ 1620:
+/***/ 1622:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(1621);
+var content = __webpack_require__(1623);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -27,7 +27,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ 1621:
+/***/ 1623:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -44,7 +44,7 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 494:
+/***/ 495:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53,11 +53,11 @@ exports.locals = {
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; // Polyfills
 // For Safari 9
 
-__webpack_require__(495);
+__webpack_require__(496);
 
-__webpack_require__(497);
+__webpack_require__(498);
 
-__webpack_require__(521);
+__webpack_require__(522);
 
 var _react = __webpack_require__(0);
 
@@ -75,15 +75,15 @@ var _gui = __webpack_require__(140);
 
 var _gui2 = _interopRequireDefault(_gui);
 
-var _hashParserHoc = __webpack_require__(186);
+var _hashParserHoc = __webpack_require__(187);
 
 var _hashParserHoc2 = _interopRequireDefault(_hashParserHoc);
 
-var _appStateHoc = __webpack_require__(187);
+var _appStateHoc = __webpack_require__(188);
 
 var _appStateHoc2 = _interopRequireDefault(_appStateHoc);
 
-var _index = __webpack_require__(1620);
+var _index = __webpack_require__(1622);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -119,12 +119,12 @@ _reactDom2.default.render(_react2.default.createElement(WrappedGui, { backpackOp
 
 /***/ }),
 
-/***/ 523:
+/***/ 524:
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ })
 
-},[[494,0]]]);
+},[[495,0]]]);
 //# sourceMappingURL=gui.js.map
