@@ -1,7 +1,7 @@
 var GUI =
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([[4],{
 
-/***/ 1482:
+/***/ 1537:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9,7 +9,7 @@ var GUI =
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _classnames = __webpack_require__(5);
+var _classnames = __webpack_require__(3);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
@@ -25,27 +25,31 @@ var _reactDom = __webpack_require__(33);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRedux = __webpack_require__(7);
+var _reactRedux = __webpack_require__(6);
 
-var _box = __webpack_require__(15);
+var _box = __webpack_require__(14);
 
 var _box2 = _interopRequireDefault(_box);
 
-var _gui = __webpack_require__(126);
+var _gui = __webpack_require__(160);
 
 var _gui2 = _interopRequireDefault(_gui);
 
-var _hashParserHoc = __webpack_require__(164);
+var _hashParserHoc = __webpack_require__(180);
 
 var _hashParserHoc2 = _interopRequireDefault(_hashParserHoc);
 
-var _appStateHoc = __webpack_require__(165);
+var _appStateHoc = __webpack_require__(113);
 
 var _appStateHoc2 = _interopRequireDefault(_appStateHoc);
 
-var _mode = __webpack_require__(118);
+var _titledHoc = __webpack_require__(453);
 
-var _player = __webpack_require__(1483);
+var _titledHoc2 = _interopRequireDefault(_titledHoc);
+
+var _mode = __webpack_require__(114);
+
+var _player = __webpack_require__(1538);
 
 var _player2 = _interopRequireDefault(_player);
 
@@ -62,7 +66,8 @@ if ("production" === 'production' && (typeof window === 'undefined' ? 'undefined
 
 var Player = function Player(_ref) {
     var isPlayerOnly = _ref.isPlayerOnly,
-        onSeeInside = _ref.onSeeInside;
+        onSeeInside = _ref.onSeeInside,
+        projectId = _ref.projectId;
     return _react2.default.createElement(
         _box2.default,
         {
@@ -75,14 +80,16 @@ var Player = function Player(_ref) {
         ),
         _react2.default.createElement(_gui2.default, {
             enableCommunity: true,
-            isPlayerOnly: isPlayerOnly
+            isPlayerOnly: isPlayerOnly,
+            projectId: projectId
         })
     );
 };
 
 Player.propTypes = {
     isPlayerOnly: _propTypes2.default.bool,
-    onSeeInside: _propTypes2.default.func
+    onSeeInside: _propTypes2.default.func,
+    projectId: _propTypes2.default.string
 };
 
 var mapStateToProps = function mapStateToProps(state) {
@@ -100,7 +107,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 };
 
 var ConnectedPlayer = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(Player);
-var WrappedPlayer = (0, _hashParserHoc2.default)((0, _appStateHoc2.default)(ConnectedPlayer));
+var WrappedPlayer = (0, _hashParserHoc2.default)((0, _appStateHoc2.default)((0, _titledHoc2.default)(ConnectedPlayer)));
 
 var appTarget = document.createElement('div');
 document.body.appendChild(appTarget);
@@ -109,11 +116,11 @@ _reactDom2.default.render(_react2.default.createElement(WrappedPlayer, { isPlaye
 
 /***/ }),
 
-/***/ 1483:
+/***/ 1538:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(1484);
+var content = __webpack_require__(1539);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -127,7 +134,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(4)(content, options);
+var update = __webpack_require__(5)(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -135,10 +142,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ 1484:
+/***/ 1539:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(4)(false);
 // imports
 
 
@@ -153,5 +160,5 @@ exports.locals = {
 
 /***/ })
 
-},[[1482,0]]]);
+},[[1537,0]]]);
 //# sourceMappingURL=player.js.map

@@ -1,11 +1,11 @@
 var GUI =
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([[1],{
 
-/***/ 1476:
+/***/ 1095:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(1477);
+var content = __webpack_require__(1096);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -19,7 +19,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(4)(content, options);
+var update = __webpack_require__(5)(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -27,10 +27,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ 1477:
+/***/ 1096:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(4)(false);
 // imports
 
 
@@ -44,20 +44,17 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 454:
+/***/ 1097:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; // Polyfills
-// For Safari 9
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 
-__webpack_require__(455);
-
-__webpack_require__(457);
-
-__webpack_require__(481);
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _react = __webpack_require__(0);
 
@@ -67,64 +64,123 @@ var _reactDom = __webpack_require__(33);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _analytics = __webpack_require__(34);
-
-var _analytics2 = _interopRequireDefault(_analytics);
-
-var _gui = __webpack_require__(126);
-
-var _gui2 = _interopRequireDefault(_gui);
-
-var _hashParserHoc = __webpack_require__(164);
-
-var _hashParserHoc2 = _interopRequireDefault(_hashParserHoc);
-
-var _appStateHoc = __webpack_require__(165);
+var _appStateHoc = __webpack_require__(113);
 
 var _appStateHoc2 = _interopRequireDefault(_appStateHoc);
 
-var _index = __webpack_require__(1476);
+var _gui = __webpack_require__(160);
+
+var _gui2 = _interopRequireDefault(_gui);
+
+var _hashParserHoc = __webpack_require__(180);
+
+var _hashParserHoc2 = _interopRequireDefault(_hashParserHoc);
+
+var _titledHoc = __webpack_require__(453);
+
+var _titledHoc2 = _interopRequireDefault(_titledHoc);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/*
+ * Render the GUI playground. This is a separate function because importing anything
+ * that instantiates the VM causes unsupported browsers to crash
+ * {object} appTarget - the DOM element to render to
+ */
+exports.default = function (appTarget) {
+    _gui2.default.setAppElement(appTarget);
+    var WrappedGui = (0, _hashParserHoc2.default)((0, _appStateHoc2.default)((0, _titledHoc2.default)(_gui2.default)));
+
+    // TODO a hack for testing the backpack, allow backpack host to be set by url param
+    var backpackHostMatches = window.location.href.match(/[?&]backpack_host=([^&]*)&?/);
+    var backpackHost = backpackHostMatches ? backpackHostMatches[1] : null;
+
+    var backpackOptions = {
+        visible: true,
+        host: backpackHost
+    };
+    if ("production" === 'production' && (typeof window === 'undefined' ? 'undefined' : _typeof(window)) === 'object') {
+        // Warn before navigating away
+        window.onbeforeunload = function () {
+            return true;
+        };
+    }
+
+    _reactDom2.default.render(_react2.default.createElement(WrappedGui, { backpackOptions: backpackOptions }), appTarget);
+};
+
+/***/ }),
+
+/***/ 471:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__(472);
+
+__webpack_require__(474);
+
+__webpack_require__(498);
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(33);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _analytics = __webpack_require__(29);
+
+var _analytics2 = _interopRequireDefault(_analytics);
+
+var _appStateHoc = __webpack_require__(113);
+
+var _appStateHoc2 = _interopRequireDefault(_appStateHoc);
+
+var _browserModal = __webpack_require__(379);
+
+var _browserModal2 = _interopRequireDefault(_browserModal);
+
+var _supportedBrowser = __webpack_require__(383);
+
+var _supportedBrowser2 = _interopRequireDefault(_supportedBrowser);
+
+var _index = __webpack_require__(1095);
 
 var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-if ("production" === 'production' && (typeof window === 'undefined' ? 'undefined' : _typeof(window)) === 'object') {
-    // Warn before navigating away
-    window.onbeforeunload = function () {
-        return true;
-    };
-}
-
 // Register "base" page view
-_analytics2.default.pageview('/');
+// Polyfills
+_analytics2.default.pageview('/'); // For Safari 9
 
 var appTarget = document.createElement('div');
 appTarget.className = _index2.default.app;
 document.body.appendChild(appTarget);
 
-_gui2.default.setAppElement(appTarget);
-var WrappedGui = (0, _hashParserHoc2.default)((0, _appStateHoc2.default)(_gui2.default));
-
-// TODO a hack for testing the backpack, allow backpack host to be set by url param
-var backpackHostMatches = window.location.href.match(/[?&]backpack_host=([^&]*)&?/);
-var backpackHost = backpackHostMatches ? backpackHostMatches[1] : null;
-
-var backpackOptions = {
-    visible: true,
-    host: backpackHost
-};
-
-_reactDom2.default.render(_react2.default.createElement(WrappedGui, { backpackOptions: backpackOptions }), appTarget);
+if ((0, _supportedBrowser2.default)()) {
+    // require needed here to avoid importing unsupported browser-crashing code
+    // at the top level
+    __webpack_require__(1097).default(appTarget);
+} else {
+    _browserModal2.default.setAppElement(appTarget);
+    var WrappedBrowserModalComponent = (0, _appStateHoc2.default)(_browserModal2.default, true /* localesOnly */);
+    var handleBack = function handleBack() {};
+    // eslint-disable-next-line react/jsx-no-bind
+    _reactDom2.default.render(_react2.default.createElement(WrappedBrowserModalComponent, { onBack: handleBack }), appTarget);
+}
 
 /***/ }),
 
-/***/ 483:
+/***/ 500:
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ })
 
-},[[454,0]]]);
+},[[471,0]]]);
 //# sourceMappingURL=gui.js.map
