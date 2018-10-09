@@ -8,6 +8,7 @@ import {updateAssetDrag} from '../reducers/asset-drag';
 import {getEventXY} from '../lib/touch-utils';
 import VM from 'scratch-vm';
 import {SVGRenderer} from 'scratch-svg-renderer';
+import log from '../lib/log';
 
 import SpriteSelectorItemComponent from '../components/sprite-selector-item/sprite-selector-item.jsx';
 
@@ -19,7 +20,7 @@ class SpriteSelectorItem extends React.Component {
     constructor (props) {
         super(props);
         bindAll(this, [
-            'getCostumeUrl',
+            'getUpdatedCostumeURL',
             'handleClick',
             'handleDelete',
             'handleDuplicate',
@@ -31,45 +32,70 @@ class SpriteSelectorItem extends React.Component {
             'handleMouseUp'
         ]);
         this.svgRenderer = new SVGRenderer();
-        // Asset ID of the SVG currently in SVGRenderer
-        this.decodedAssetId = null;
+        if (props.costumeURL) {
+            this.state = {
+                costumeURL: props.costumeURL,
+                timestamp: Date.now()
+            };
+        } else {
+            this.state = {
+                costumeURL: null,
+                timestamp: -1
+            };
+            this.getUpdatedCostumeURL(props);
+        }
     }
-    shouldComponentUpdate (nextProps) {
-        // Ignore dragPayload due to https://github.com/LLK/scratch-gui/issues/3172.
-        // This function should be removed once the issue is fixed.
-        for (const property in nextProps) {
-            if (property !== 'dragPayload' && this.props[property] !== nextProps[property]) {
-                return true;
-            }
+    componentWillReceiveProps (nextProps) {
+        if (this.props.costumeURL !== nextProps.costumeURL) {
+            this.setState({costumeURL: this.props.costumeURL, timestamp: Date.now()});
+        } else if (this.props.assetId !== nextProps.assetId) {
+            this.getUpdatedCostumeURL(nextProps);
+        }
+    }
+    shouldComponentUpdate (nextProps, nextState) {
+        if (this.props.selected !== nextProps.selected) {
+            return true;
+        }
+        if (this.state.costumeURL !== nextState.costumeURL) {
+            return true;
         }
         return false;
     }
-    getCostumeUrl () {
-        if (this.props.costumeURL) return this.props.costumeURL;
-        if (!this.props.assetId) return null;
+    getUpdatedCostumeURL (props) {
+        const time = Date.now();
+        new Promise((resolve, reject) => {
+            if (props.costumeURL) resolve(props.costumeURL);
+            if (!props.assetId) reject();
 
-        const storage = this.props.vm.runtime.storage;
-        const asset = storage.get(this.props.assetId);
-        // If the SVG refers to fonts, they must be inlined in order to display correctly in the img tag.
-        // Avoid parsing the SVG when possible, since it's expensive.
-        if (asset.assetType === storage.AssetType.ImageVector) {
-            // If the asset ID has not changed, no need to re-parse
-            if (this.decodedAssetId === this.props.assetId) {
-                // @todo consider caching more than one URL.
-                return this.cachedUrl;
-            }
-            this.decodedAssetId = this.props.assetId;
-            const svgString = this.props.vm.runtime.storage.get(this.props.assetId).decodeText();
-            if (svgString.match(HAS_FONT_REGEXP)) {
-                this.svgRenderer.loadString(svgString);
-                const svgText = this.svgRenderer.toString(true /* shouldInjectFonts */);
-                this.cachedUrl = `data:image/svg+xml;utf8,${encodeURIComponent(svgText)}`;
+            const storage = props.vm.runtime.storage;
+            const asset = storage.get(props.assetId);
+            // If the SVG refers to fonts, they must be inlined in order to display correctly in the img tag.
+            // Avoid parsing the SVG when possible, since it's expensive.
+            if (asset.assetType === storage.AssetType.ImageVector) {
+                const svgString = props.vm.runtime.storage.get(props.assetId).decodeText();
+                if (svgString.match(HAS_FONT_REGEXP)) {
+                    this.svgRenderer.loadString(svgString).then(() => {
+                        const svgText = this.svgRenderer.toString(true /* shouldInjectFonts */);
+                        resolve(`data:image/svg+xml;utf8,${encodeURIComponent(svgText)}`);
+                    }, errorMessage => {
+                        reject(errorMessage);
+                    });
+                } else {
+                    resolve(props.vm.runtime.storage.get(props.assetId).encodeDataURI());
+                }
             } else {
-                this.cachedUrl = this.props.vm.runtime.storage.get(this.props.assetId).encodeDataURI();
+                resolve(props.vm.runtime.storage.get(props.assetId).encodeDataURI());
             }
-            return this.cachedUrl;
-        }
-        return this.props.vm.runtime.storage.get(this.props.assetId).encodeDataURI();
+        }).then(result => {
+            // Since this calculation is async, if it gets called multiple times,
+            // results may get out of order. Keep a timestamp whenever setting the costumeURL
+            // to make sure we don't overwrite later results.
+            if (this.state.timestamp < time) {
+                this.setState({costumeURL: result, timestamp: time});
+            }
+        }, errorMessage => {
+            log.error(errorMessage);
+        });
     }
     handleMouseUp () {
         this.initialOffset = null;
@@ -94,7 +120,7 @@ class SpriteSelectorItem extends React.Component {
         const dy = currentOffset.y - this.initialOffset.y;
         if (Math.sqrt((dx * dx) + (dy * dy)) > dragThreshold) {
             this.props.onDrag({
-                img: this.getCostumeUrl(),
+                img: this.state.costumeURL,
                 currentOffset: currentOffset,
                 dragging: true,
                 dragType: this.props.dragType,
@@ -140,22 +166,22 @@ class SpriteSelectorItem extends React.Component {
         const {
             /* eslint-disable no-unused-vars */
             assetId,
+            costumeURL,
+            dragPayload,
             id,
             index,
             onClick,
             onDeleteButtonClick,
             onDuplicateButtonClick,
             onExportButtonClick,
-            dragPayload,
             receivedBlocks,
-            costumeURL,
             vm,
             /* eslint-enable no-unused-vars */
             ...props
         } = this.props;
         return (
             <SpriteSelectorItemComponent
-                costumeURL={this.getCostumeUrl()}
+                costumeURL={this.state.costumeURL}
                 onClick={this.handleClick}
                 onDeleteButtonClick={onDeleteButtonClick ? this.handleDelete : null}
                 onDuplicateButtonClick={onDuplicateButtonClick ? this.handleDuplicate : null}
