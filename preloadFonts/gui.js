@@ -1,11 +1,11 @@
 var GUI =
 (window["webpackJsonpGUI"] = window["webpackJsonpGUI"] || []).push([[1],{
 
-/***/ 1123:
+/***/ 1129:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(1124);
+var content = __webpack_require__(1130);
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -27,7 +27,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ 1124:
+/***/ 1130:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -44,7 +44,7 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 1125:
+/***/ 1131:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60,19 +60,21 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(34);
+var _reactDom = __webpack_require__(35);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _appStateHoc = __webpack_require__(114);
+var _redux = __webpack_require__(58);
+
+var _appStateHoc = __webpack_require__(115);
 
 var _appStateHoc2 = _interopRequireDefault(_appStateHoc);
 
-var _gui = __webpack_require__(161);
+var _gui = __webpack_require__(163);
 
 var _gui2 = _interopRequireDefault(_gui);
 
-var _hashParserHoc = __webpack_require__(183);
+var _hashParserHoc = __webpack_require__(185);
 
 var _hashParserHoc2 = _interopRequireDefault(_hashParserHoc);
 
@@ -89,7 +91,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  */
 exports.default = function (appTarget) {
     _gui2.default.setAppElement(appTarget);
-    var WrappedGui = (0, _hashParserHoc2.default)((0, _appStateHoc2.default)((0, _titledHoc2.default)(_gui2.default)));
+
+    // note that redux's 'compose' function is just being used as a general utility to make
+    // the hierarchy of HOC constructor calls clearer here; it has nothing to do with redux's
+    // ability to compose reducers.
+    var WrappedGui = (0, _redux.compose)(_appStateHoc2.default, _hashParserHoc2.default, _titledHoc2.default)(_gui2.default);
 
     // TODO a hack for testing the backpack, allow backpack host to be set by url param
     var backpackHostMatches = window.location.href.match(/[?&]backpack_host=([^&]*)&?/);
@@ -127,7 +133,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(34);
+var _reactDom = __webpack_require__(35);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -135,7 +141,7 @@ var _analytics = __webpack_require__(28);
 
 var _analytics2 = _interopRequireDefault(_analytics);
 
-var _appStateHoc = __webpack_require__(114);
+var _appStateHoc = __webpack_require__(115);
 
 var _appStateHoc2 = _interopRequireDefault(_appStateHoc);
 
@@ -147,7 +153,7 @@ var _supportedBrowser = __webpack_require__(389);
 
 var _supportedBrowser2 = _interopRequireDefault(_supportedBrowser);
 
-var _index = __webpack_require__(1123);
+var _index = __webpack_require__(1129);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -164,7 +170,7 @@ document.body.appendChild(appTarget);
 if ((0, _supportedBrowser2.default)()) {
     // require needed here to avoid importing unsupported browser-crashing code
     // at the top level
-    __webpack_require__(1125).default(appTarget);
+    __webpack_require__(1131).default(appTarget);
 } else {
     _browserModal2.default.setAppElement(appTarget);
     var WrappedBrowserModalComponent = (0, _appStateHoc2.default)(_browserModal2.default, true /* localesOnly */);
