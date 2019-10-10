@@ -80,10 +80,10 @@ class StageSelector extends React.Component {
     handleClick () {
         this.props.onSelect(this.props.id);
     }
-    handleNewBackdrop (backdrops_, shouldActivateTab = true) {
+    handleNewBackdrop (backdrops_, shouldActivateTab = true, fitToArtboard = false) {
         const backdrops = Array.isArray(backdrops_) ? backdrops_ : [backdrops_];
         return Promise.all(backdrops.map(backdrop =>
-            this.props.vm.addBackdrop(backdrop.md5, backdrop)
+            this.props.vm.addBackdrop(backdrop.md5, backdrop, 3, fitToArtboard)
         )).then(() => {
             if (shouldActivateTab) {
                 return this.props.onActivateTab(COSTUMES_TAB_INDEX);
@@ -110,7 +110,7 @@ class StageSelector extends React.Component {
                 vmCostumes.forEach((costume, i) => {
                     costume.name = `${fileName}${i ? i + 1 : ''}`;
                 });
-                this.handleNewBackdrop(vmCostumes).then(() => {
+                this.handleNewBackdrop(vmCostumes, false /* shouldActivateTab */, true /* fitToArtboard */).then(() => {
                     if (fileIndex === fileCount - 1) {
                         this.props.onCloseImporting();
                     }
