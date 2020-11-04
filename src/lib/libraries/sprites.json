@@ -159,7 +159,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Andie",
+            "name": "andie",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -1047,7 +1047,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Baseball",
+            "name": "baseball",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -1104,7 +1104,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Basketball",
+            "name": "basketball",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -1173,7 +1173,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Bat",
+            "name": "bat",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -1258,7 +1258,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Batter",
+            "name": "batter",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -1409,7 +1409,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Bear",
+            "name": "bear",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -1475,7 +1475,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Bear-walking",
+            "name": "bear-walking",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -1722,7 +1722,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Ben",
+            "name": "ben",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -1927,7 +1927,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Bread",
+            "name": "bread",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -1985,7 +1985,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Broom",
+            "name": "broom",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -2183,7 +2183,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Butterfly 1",
+            "name": "butterfly 1",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -2788,7 +2788,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Casey",
+            "name": "casey",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -3152,7 +3152,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Catcher",
+            "name": "catcher",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -3237,7 +3237,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Centaur",
+            "name": "centaur",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -3496,7 +3496,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Chick",
+            "name": "chick",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -3975,7 +3975,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Crystal",
+            "name": "crystal",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -4515,7 +4515,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Dinosaur1",
+            "name": "dinosaur1",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -4600,7 +4600,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Dinosaur2",
+            "name": "dinosaur2",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -4686,7 +4686,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Dinosaur3",
+            "name": "dinosaur3",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -4782,7 +4782,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Dinosaur4",
+            "name": "dinosaur4",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -5330,7 +5330,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Dorian",
+            "name": "dorian",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -5415,7 +5415,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Dot",
+            "name": "dot",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -5566,7 +5566,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Dragon",
+            "name": "dragon",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -5783,7 +5783,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Drum",
+            "name": "drum",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -5857,7 +5857,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Drum Kit",
+            "name": "drum kit",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -5958,7 +5958,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Drum-cymbal",
+            "name": "drum-cymbal",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -6050,7 +6050,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Drum-highhat",
+            "name": "drum-highhat",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -6115,7 +6115,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Drum-snare",
+            "name": "drum-snare",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -6449,7 +6449,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Earth",
+            "name": "earth",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -6581,7 +6581,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Egg",
+            "name": "egg",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -6750,7 +6750,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Elf",
+            "name": "elf",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -6844,7 +6844,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Fairy",
+            "name": "fairy",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -6939,7 +6939,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Fish",
+            "name": "fish",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -7314,7 +7314,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Fox",
+            "name": "fox",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -7393,7 +7393,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Frank",
+            "name": "frank",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -7728,7 +7728,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Ghost",
+            "name": "ghost",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -7959,7 +7959,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Giga Walking",
+            "name": "Giga walking",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -8034,7 +8034,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Giraffe",
+            "name": "giraffe",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -8260,7 +8260,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Goalie",
+            "name": "goalie",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -8353,7 +8353,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Goblin",
+            "name": "goblin",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -8673,7 +8673,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Griffin",
+            "name": "griffin",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -8756,7 +8756,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Guitar",
+            "name": "guitar",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -8884,7 +8884,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Guitar-electric1",
+            "name": "guitar-electric1",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -9012,7 +9012,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Guitar-electric2",
+            "name": "guitar-electric2",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -9456,7 +9456,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Hatchling",
+            "name": "hatchling",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -9738,7 +9738,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Hedgehog",
+            "name": "hedgehog",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -9832,7 +9832,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Hen",
+            "name": "hen",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -10231,7 +10231,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Jamal",
+            "name": "jamal",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -10324,7 +10324,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Jar",
+            "name": "jar",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -10393,7 +10393,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Jellyfish",
+            "name": "jellyfish",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -10488,7 +10488,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Jordyn",
+            "name": "jordyn",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -10864,7 +10864,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Keyboard",
+            "name": "keyboard",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -10993,7 +10993,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Kiran",
+            "name": "kiran",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -11616,7 +11616,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Lion",
+            "name": "lion",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -11700,7 +11700,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Llama",
+            "name": "llama",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -11924,7 +11924,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Max",
+            "name": "max",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -12009,7 +12009,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Mermaid",
+            "name": "mermaid",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -12092,7 +12092,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Microphone",
+            "name": "microphone",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -12230,7 +12230,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Milk",
+            "name": "milk",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -12323,7 +12323,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Monet",
+            "name": "monet",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -12866,7 +12866,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Octopus",
+            "name": "octopus",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -13091,7 +13091,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Outfielder",
+            "name": "outfielder",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -13175,7 +13175,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Owl",
+            "name": "owl",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -13306,7 +13306,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Panther",
+            "name": "panther",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -13904,7 +13904,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Pico Walking",
+            "name": "Pico walking",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -13989,7 +13989,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Pitcher",
+            "name": "pitcher",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -14135,7 +14135,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Polar Bear",
+            "name": "Polar bear",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -14210,7 +14210,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Potion",
+            "name": "potion",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -14344,7 +14344,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Princess",
+            "name": "princess",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -14439,7 +14439,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Pufferfish",
+            "name": "pufferfish",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -14610,7 +14610,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Rabbit",
+            "name": "rabbit",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -14856,7 +14856,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Referee",
+            "name": "referee",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -15079,7 +15079,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Ripley",
+            "name": "ripley",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -15181,7 +15181,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Robot",
+            "name": "robot",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -15283,7 +15283,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Rocketship",
+            "name": "rocketship",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -15451,7 +15451,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Rooster",
+            "name": "rooster",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -15709,7 +15709,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Saxophone",
+            "name": "saxophone",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -15913,7 +15913,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Shark",
+            "name": "shark",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -16352,7 +16352,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Skeleton",
+            "name": "skeleton",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -16436,7 +16436,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Snake",
+            "name": "snake",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -16624,7 +16624,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Soccer Ball",
+            "name": "soccer ball",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -17046,7 +17046,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Strawberry",
+            "name": "strawberry",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -17142,7 +17142,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Sun",
+            "name": "sun",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -17328,7 +17328,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Takeout",
+            "name": "takeout",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -17724,7 +17724,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Toucan",
+            "name": "toucan",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -18052,7 +18052,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Trumpet",
+            "name": "trumpet",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -18181,7 +18181,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Unicorn",
+            "name": "unicorn",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -18298,7 +18298,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Unicorn Running",
+            "name": "unicorn running",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -18400,7 +18400,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Wand",
+            "name": "wand",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -18651,7 +18651,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Witch",
+            "name": "witch",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -18738,7 +18738,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Wizard",
+            "name": "wizard",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -18816,7 +18816,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Wizard Girl",
+            "name": "wizard girl",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -18934,7 +18934,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Wizard-toad",
+            "name": "wizard-toad",
             "variables": {},
             "lists": {},
             "broadcasts": {},
@@ -19010,7 +19010,7 @@
         ],
         "json": {
             "isStage": false,
-            "name": "Zebra",
+            "name": "zebra",
             "variables": {},
             "lists": {},
             "broadcasts": {},
