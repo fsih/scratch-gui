@@ -80,6 +80,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Abby"
@@ -138,6 +139,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Amon"
@@ -228,6 +230,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Andie"
@@ -403,6 +406,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Anina Dance"
@@ -463,6 +467,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Apple"
@@ -550,6 +555,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Arrow1"
@@ -575,7 +581,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "f52bde34d8027aab14b53f228fe5cc14",
@@ -616,6 +622,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Avery"
@@ -642,7 +649,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "dc6a584704c09a3fbafb9825635a9fd4",
@@ -701,6 +708,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Avery Walking"
@@ -812,6 +820,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Ball"
@@ -897,6 +906,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Ballerina"
@@ -979,6 +989,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Balloon1"
@@ -1049,6 +1060,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Bananas"
@@ -1109,6 +1121,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Baseball"
@@ -1177,6 +1190,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Basketball"
@@ -1266,6 +1280,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Bat"
@@ -1294,7 +1309,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "9d193bef6e3d6d8eba6d1470b8bf9351",
@@ -1353,6 +1368,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Batter"
@@ -1422,6 +1438,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Beachball"
@@ -1490,6 +1507,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Bear"
@@ -1612,6 +1630,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Bear-walking"
@@ -1672,6 +1691,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Beetle"
@@ -1741,6 +1761,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Bell"
@@ -1770,7 +1791,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "2cd77b8a9961e7ad4da905e7731b7c1b",
@@ -1838,6 +1859,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Ben"
@@ -1896,6 +1918,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Bowl"
@@ -1955,6 +1978,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Bowtie"
@@ -2013,6 +2037,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Bread"
@@ -2073,6 +2098,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Broom"
@@ -2101,7 +2127,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 9,
             "costumes": [
                 {
                     "assetId": "e8c9508b1f6a0a432e09c10ef9ada67c",
@@ -2214,6 +2240,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Buildings"
@@ -2243,7 +2270,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 2,
             "costumes": [
                 {
                     "assetId": "fe98df7367e314d9640bfaa54fc239be",
@@ -2293,6 +2320,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Butterfly 1"
@@ -2365,6 +2393,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Butterfly 2"
@@ -2425,6 +2454,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Button1"
@@ -2493,6 +2523,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Button2"
@@ -2562,6 +2593,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Button3"
@@ -2629,6 +2661,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Button4"
@@ -2699,6 +2732,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Button5"
@@ -2731,7 +2765,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "862488bf66b67c5330cae9235b853b6e",
@@ -2772,6 +2806,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Cake"
@@ -2838,6 +2873,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Calvrett"
@@ -2925,6 +2961,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Casey"
@@ -3010,6 +3047,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Cassy Dance"
@@ -3082,6 +3120,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Cat"
@@ -3143,6 +3182,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Cat 2"
@@ -3171,7 +3211,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "a1ab94c8172c3b97ed9a2bf7c32172cd",
@@ -3212,6 +3252,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Cat Flying"
@@ -3240,7 +3281,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "895cdda4f2bd9d6f50ff07188e7ce395",
@@ -3299,6 +3340,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Catcher"
@@ -3395,6 +3437,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Centaur"
@@ -3507,6 +3550,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Champ99"
@@ -3564,6 +3608,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Cheesy Puffs"
@@ -3592,7 +3637,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 2,
             "costumes": [
                 {
                     "assetId": "80abbc427366bca477ccf1ef0faf240a",
@@ -3642,6 +3687,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Chick"
@@ -3670,7 +3716,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "e9694adbff9422363e2ea03166015393",
@@ -3720,6 +3766,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "City Bus"
@@ -3779,6 +3826,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Cloud"
@@ -3866,6 +3914,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Clouds"
@@ -3924,6 +3973,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Convertible"
@@ -3983,6 +4033,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Convertible 2"
@@ -4058,6 +4109,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Crab"
@@ -4135,6 +4187,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Crystal"
@@ -4292,6 +4345,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "D-Money Dance"
@@ -4358,6 +4412,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dan"
@@ -4433,6 +4488,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dani"
@@ -4458,7 +4514,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 4,
             "costumes": [
                 {
                     "assetId": "43bd4c241a94b3aea883472d7dab5afc",
@@ -4526,6 +4582,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dee"
@@ -4551,7 +4608,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "5f614017dba0ce6bff063f6c62041035",
@@ -4610,6 +4667,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Devin"
@@ -4696,6 +4754,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dinosaur1"
@@ -4783,6 +4842,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dinosaur2"
@@ -4880,6 +4940,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dinosaur3"
@@ -4969,6 +5030,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dinosaur4"
@@ -4996,7 +5058,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 7,
             "costumes": [
                 {
                     "assetId": "42e3bf118c775ba54239af4276800a0a",
@@ -5100,6 +5162,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dinosaur5"
@@ -5162,6 +5225,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Diver1"
@@ -5224,6 +5288,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Diver2"
@@ -5293,6 +5358,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dog1"
@@ -5371,6 +5437,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dog2"
@@ -5444,6 +5511,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Donut"
@@ -5531,6 +5599,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dorian"
@@ -5618,6 +5687,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dot"
@@ -5686,6 +5756,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dove"
@@ -5714,7 +5785,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "a166d123597ed8896cfb7c397a9fc9c4",
@@ -5764,6 +5835,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dragon"
@@ -5834,6 +5906,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dragonfly"
@@ -5911,6 +5984,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Dress"
@@ -5937,7 +6011,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "ce6971317035091341ec40571c9056e9",
@@ -5987,6 +6061,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Drum"
@@ -6090,6 +6165,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Drum Kit"
@@ -6116,7 +6192,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "78398692e6fa226568df0374c4358da4",
@@ -6184,6 +6260,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Drum-cymbal"
@@ -6251,6 +6328,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Drum-highhat"
@@ -6277,7 +6355,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "c42bb05aab3cacddcd88712e33ab8df0",
@@ -6336,6 +6414,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Drum-snare"
@@ -6433,6 +6512,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Drums Conga"
@@ -6530,6 +6610,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Drums Tabla"
@@ -6591,6 +6672,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Duck"
@@ -6651,6 +6733,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Earth"
@@ -6728,6 +6811,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Easel"
@@ -6832,6 +6916,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Egg"
@@ -6900,6 +6985,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Elephant"
@@ -6996,6 +7082,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Elf"
@@ -7024,7 +7111,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "40d726e17bfd2ffeb8c0aa5393ee1c77",
@@ -7092,6 +7179,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Fairy"
@@ -7189,6 +7277,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Fish"
@@ -7258,6 +7347,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Fishbowl"
@@ -7287,7 +7377,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 2,
             "costumes": [
                 {
                     "assetId": "a77f9693f87288d023a4632cf019776e",
@@ -7355,6 +7445,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Food Truck"
@@ -7381,7 +7472,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "7ee31371b2eafba57cc5a78fc1a787fe",
@@ -7422,6 +7513,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Football"
@@ -7479,6 +7571,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Fortune Cookie"
@@ -7556,6 +7649,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Fox"
@@ -7587,7 +7681,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "10d39bb7e31647a465e747cd243b8cd0",
@@ -7646,6 +7740,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Frank"
@@ -7708,6 +7803,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Frog"
@@ -7787,6 +7883,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Frog 2 "
@@ -7844,6 +7941,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Fruit Platter"
@@ -7902,6 +8000,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Fruit Salad"
@@ -7991,6 +8090,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Ghost"
@@ -8058,6 +8158,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Gift"
@@ -8084,7 +8185,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "92161a11e851ecda94cbbb985018fed6",
@@ -8143,6 +8244,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Giga"
@@ -8169,7 +8271,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 2,
             "costumes": [
                 {
                     "assetId": "3afad833094d8dff1c4ff79edcaa13d0",
@@ -8219,6 +8321,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Giga Walking"
@@ -8246,7 +8349,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 2,
             "costumes": [
                 {
                     "assetId": "43e89629fb9df7051eaf307c695424fc",
@@ -8296,6 +8399,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Giraffe"
@@ -8364,6 +8468,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glass Water"
@@ -8450,6 +8555,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glasses"
@@ -8546,6 +8652,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Goalie"
@@ -8573,7 +8680,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "3f08380f25062b8055a1800f5dad14bd",
@@ -8632,6 +8739,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Goblin"
@@ -8710,6 +8818,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Gobo"
@@ -8739,7 +8848,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 5,
             "costumes": [
                 {
                     "assetId": "e7210a370837dd1e4ebc1a56a973b7f6",
@@ -8816,6 +8925,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Grasshopper"
@@ -8873,6 +8983,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Green Flag"
@@ -8901,7 +9012,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "a31166d45903206b52cb0f0a0cb687b5",
@@ -8960,6 +9071,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Griffin"
@@ -9090,6 +9202,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Guitar"
@@ -9220,6 +9333,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Guitar-electric1"
@@ -9350,6 +9464,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Guitar-electric2"
@@ -9426,6 +9541,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Hannah"
@@ -9459,7 +9575,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 2,
             "costumes": [
                 {
                     "assetId": "7269593d83b6f9eae512997f541a7417",
@@ -9509,6 +9625,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Hare"
@@ -9586,6 +9703,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Harper"
@@ -9672,6 +9790,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Hat1 "
@@ -9700,7 +9819,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "55f7d457eb0af78cb309ca47497c490f",
@@ -9750,6 +9869,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Hatchling"
@@ -9820,6 +9940,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Heart"
@@ -9846,7 +9967,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "288976865e8c5db717d859e915606d82",
@@ -9905,6 +10026,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Heart Candy"
@@ -9962,6 +10084,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Heart Face"
@@ -10058,6 +10181,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Hedgehog"
@@ -10145,6 +10269,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Hen"
@@ -10218,6 +10343,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Hippo1"
@@ -10276,6 +10402,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Home Button"
@@ -10306,7 +10433,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "ad458251c5bf5b375870829f1762fa47",
@@ -10356,6 +10483,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Horse"
@@ -10467,6 +10595,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Jaime"
@@ -10563,6 +10692,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Jamal"
@@ -10631,6 +10761,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Jar"
@@ -10729,6 +10860,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Jellyfish"
@@ -10826,6 +10958,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Jordyn"
@@ -10992,6 +11125,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Jouvi Dance"
@@ -11058,6 +11192,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Kai"
@@ -11116,6 +11251,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Key"
@@ -11246,6 +11382,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Keyboard"
@@ -11350,6 +11487,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Kiran"
@@ -11409,6 +11547,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Knight"
@@ -11575,6 +11714,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "LB Dance"
@@ -11635,6 +11775,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Ladybug1"
@@ -11664,7 +11805,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "457200f8dec8fea00d22473e9bd9175e",
@@ -11705,6 +11846,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Ladybug2"
@@ -11763,6 +11905,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Laptop"
@@ -11824,6 +11967,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Lightning"
@@ -11883,6 +12027,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Line"
@@ -11971,6 +12116,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Lion"
@@ -11998,7 +12144,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 2,
             "costumes": [
                 {
                     "assetId": "c97824f20a45adfa3ff362f82247a025",
@@ -12048,6 +12194,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Llama"
@@ -12107,6 +12254,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Magic Wand"
@@ -12132,7 +12280,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 4,
             "costumes": [
                 {
                     "assetId": "e9577a1eb098905dd386135bb38c0398",
@@ -12200,6 +12348,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Marian"
@@ -12287,6 +12436,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Max"
@@ -12374,6 +12524,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Mermaid"
@@ -12513,6 +12664,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Microphone"
@@ -12540,7 +12692,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 2,
             "costumes": [
                 {
                     "assetId": "aa5f1501805aa68d3ad74623f59e6135",
@@ -12608,6 +12760,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Milk"
@@ -12703,6 +12856,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Monet"
@@ -12790,6 +12944,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Monkey"
@@ -12886,6 +13041,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Motorcycle"
@@ -12954,6 +13110,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Mouse1"
@@ -12979,7 +13136,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "afa34381db44e699d61f774911aab448",
@@ -13020,6 +13177,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Muffin"
@@ -13105,6 +13263,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Nano"
@@ -13163,6 +13322,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Neigh Pony"
@@ -13192,7 +13352,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "e22d9b633feffc1d026980a1f21e07d7",
@@ -13269,6 +13429,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Octopus"
@@ -13327,6 +13488,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Orange"
@@ -13354,7 +13516,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "27286ca08451bc512e1d611965dad061",
@@ -13395,6 +13557,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Orange2"
@@ -13482,6 +13645,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Outfielder"
@@ -13559,6 +13723,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Owl"
@@ -13616,6 +13781,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Paddle"
@@ -13694,6 +13860,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Panther"
@@ -13762,6 +13929,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Pants"
@@ -13793,7 +13961,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "082f371c206f07d20e53595a9c69cc22",
@@ -13834,6 +14002,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Parrot"
@@ -13860,7 +14029,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "1d14be44e4aa99a471115cd874204690",
@@ -13910,6 +14079,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Party Hats"
@@ -13977,6 +14147,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Pencil"
@@ -14060,6 +14231,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Penguin"
@@ -14088,7 +14260,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "428772307d90f4b347d6cc3c0d8e76ef",
@@ -14147,6 +14319,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Penguin 2"
@@ -14173,7 +14346,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "e7ce31db37f7abd2901499db2e9ad83a",
@@ -14232,6 +14405,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Pico"
@@ -14317,6 +14491,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Pico Walking"
@@ -14404,6 +14579,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Pitcher"
@@ -14461,6 +14637,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Planet2"
@@ -14545,6 +14722,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Polar Bear"
@@ -14622,6 +14800,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Potion"
@@ -14681,6 +14860,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Prince"
@@ -14778,6 +14958,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Princess"
@@ -14866,6 +15047,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Pufferfish"
@@ -14893,7 +15075,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "2768d9e44a0aab055856d301bbc2b04e",
@@ -14952,6 +15134,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Puppy"
@@ -15050,6 +15233,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Rabbit"
@@ -15146,6 +15330,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Radio"
@@ -15206,6 +15391,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Rainbow"
@@ -15293,6 +15479,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Referee"
@@ -15352,6 +15539,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Reindeer"
@@ -15436,6 +15624,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Retro Robot"
@@ -15540,6 +15729,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Ripley"
@@ -15567,7 +15757,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 2,
             "costumes": [
                 {
                     "assetId": "89679608327ad572b93225d06fe9edda",
@@ -15644,6 +15834,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Robot"
@@ -15671,7 +15862,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 4,
             "costumes": [
                 {
                     "assetId": "525c06ceb3a351244bcd810c9ba951c7",
@@ -15757,6 +15948,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Rocketship"
@@ -15815,6 +16007,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Rocks"
@@ -15902,6 +16095,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Rooster"
@@ -15968,6 +16162,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Ruby"
@@ -16026,6 +16221,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Sailboat"
@@ -16083,6 +16279,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Sam"
@@ -16213,6 +16410,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Saxophone"
@@ -16289,6 +16487,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Scarf"
@@ -16358,6 +16557,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Shark"
@@ -16457,6 +16657,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Shark 2"
@@ -16515,6 +16716,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Shirt"
@@ -16602,6 +16804,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Shoes"
@@ -16680,6 +16883,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Shorts"
@@ -16738,6 +16942,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Singer1"
@@ -16827,6 +17032,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Skeleton"
@@ -16904,6 +17110,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Snake"
@@ -16961,6 +17168,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Snowflake"
@@ -17020,6 +17228,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Snowman"
@@ -17080,6 +17289,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Soccer Ball"
@@ -17212,6 +17422,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Speaker"
@@ -17269,6 +17480,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Squirrel"
@@ -17327,6 +17539,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Star"
@@ -17397,6 +17610,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Starfish"
@@ -17455,6 +17669,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Stop"
@@ -17550,6 +17765,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Strawberry"
@@ -17612,6 +17828,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Sun"
@@ -17679,6 +17896,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Sunglasses1"
@@ -17746,6 +17964,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Taco"
@@ -17840,6 +18059,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Takeout"
@@ -18006,6 +18226,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Ten80 Dance"
@@ -18064,6 +18285,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Tennis Ball"
@@ -18090,7 +18312,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 3,
             "costumes": [
                 {
                     "assetId": "18f9a11ecdbd3ad8719beb176c484d41",
@@ -18149,6 +18371,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Tera"
@@ -18226,6 +18449,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Toucan"
@@ -18283,6 +18507,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Trampoline"
@@ -18342,6 +18567,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Tree1"
@@ -18410,6 +18636,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Trees"
@@ -18488,6 +18715,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Truck"
@@ -18618,6 +18846,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Trumpet"
@@ -18677,6 +18906,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Unicorn"
@@ -18738,6 +18968,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Unicorn 2"
@@ -18766,7 +18997,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 5,
             "costumes": [
                 {
                     "assetId": "4709966d11b37e8a11d24c800e8b2859",
@@ -18843,6 +19074,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Unicorn Running"
@@ -18902,6 +19134,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Wand"
@@ -18959,6 +19192,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Wanda"
@@ -19039,6 +19273,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Watermelon"
@@ -19099,6 +19334,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Winter Hat"
@@ -19188,6 +19424,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Witch"
@@ -19218,7 +19455,7 @@
             "broadcasts": {},
             "blocks": {},
             "comments": {},
-            "currentCostume": 0,
+            "currentCostume": 1,
             "costumes": [
                 {
                     "assetId": "91d495085eb4d02a375c42f6318071e7",
@@ -19268,6 +19505,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Wizard"
@@ -19330,6 +19568,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Wizard Girl"
@@ -19389,6 +19628,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Wizard Hat"
@@ -19470,6 +19710,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Wizard-toad"
@@ -19539,6 +19780,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Zebra"
@@ -19597,6 +19839,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-A"
@@ -19655,6 +19898,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-B"
@@ -19713,6 +19957,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-C"
@@ -19771,6 +20016,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-D"
@@ -19829,6 +20075,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-E"
@@ -19887,6 +20134,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-F"
@@ -19945,6 +20193,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-G"
@@ -20003,6 +20252,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-H"
@@ -20061,6 +20311,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-I"
@@ -20119,6 +20370,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-J"
@@ -20177,6 +20429,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-K"
@@ -20235,6 +20488,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-L"
@@ -20293,6 +20547,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-M"
@@ -20351,6 +20606,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-N"
@@ -20409,6 +20665,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-O"
@@ -20467,6 +20724,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-P"
@@ -20525,6 +20783,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-Q"
@@ -20583,6 +20842,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-R"
@@ -20641,6 +20901,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-S"
@@ -20699,6 +20960,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-T"
@@ -20757,6 +21019,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-U"
@@ -20815,6 +21078,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-V"
@@ -20873,6 +21137,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-W"
@@ -20931,6 +21196,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-X"
@@ -20989,6 +21255,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-Y"
@@ -21047,6 +21314,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Block-Z"
@@ -21105,6 +21373,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-0"
@@ -21163,6 +21432,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-1"
@@ -21221,6 +21491,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-2"
@@ -21279,6 +21550,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-3"
@@ -21337,6 +21609,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-4"
@@ -21395,6 +21668,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-5"
@@ -21453,6 +21727,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-6"
@@ -21511,6 +21786,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-7"
@@ -21569,6 +21845,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-8"
@@ -21627,6 +21904,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-9"
@@ -21685,6 +21963,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-A"
@@ -21743,6 +22022,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-B"
@@ -21801,6 +22081,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-C"
@@ -21859,6 +22140,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-D"
@@ -21917,6 +22199,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-E"
@@ -21975,6 +22258,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-F"
@@ -22033,6 +22317,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-G"
@@ -22091,6 +22376,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-H"
@@ -22149,6 +22435,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-I"
@@ -22207,6 +22494,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-J"
@@ -22265,6 +22553,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-K"
@@ -22323,6 +22612,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-L"
@@ -22381,6 +22671,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-M"
@@ -22439,6 +22730,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-N"
@@ -22497,6 +22789,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-O"
@@ -22555,6 +22848,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-P"
@@ -22613,6 +22907,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-Q"
@@ -22671,6 +22966,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-R"
@@ -22729,6 +23025,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-S"
@@ -22787,6 +23084,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-T"
@@ -22845,6 +23143,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-U"
@@ -22903,6 +23202,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-V"
@@ -22961,6 +23261,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-W"
@@ -23019,6 +23320,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-X"
@@ -23077,6 +23379,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-Y"
@@ -23135,6 +23438,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Glow-Z"
@@ -23211,6 +23515,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-A"
@@ -23287,6 +23592,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-B"
@@ -23363,6 +23669,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-C"
@@ -23439,6 +23746,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-D"
@@ -23515,6 +23823,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-E"
@@ -23591,6 +23900,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-F"
@@ -23667,6 +23977,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-G"
@@ -23743,6 +24054,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-H"
@@ -23819,6 +24131,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-I"
@@ -23895,6 +24208,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-J"
@@ -23971,6 +24285,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-K"
@@ -24047,6 +24362,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-L"
@@ -24123,6 +24439,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-M"
@@ -24199,6 +24516,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-N"
@@ -24275,6 +24593,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-O"
@@ -24351,6 +24670,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-P"
@@ -24427,6 +24747,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-Q"
@@ -24503,6 +24824,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-R"
@@ -24579,6 +24901,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-S"
@@ -24655,6 +24978,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-T"
@@ -24731,6 +25055,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-U"
@@ -24807,6 +25132,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-V"
@@ -24883,6 +25209,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-W"
@@ -24959,6 +25286,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-X"
@@ -25035,6 +25363,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-Y"
@@ -25111,6 +25440,7 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "currentCostumeIndex": 0,
             "scale": 1,
             "isDraggable": false,
             "objName": "Story-Z"
