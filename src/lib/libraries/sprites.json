@@ -80,6 +80,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Abby"
         }
     },
@@ -136,6 +138,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Amon"
         }
     },
@@ -224,6 +228,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Andie"
         }
     },
@@ -397,6 +403,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Anina Dance"
         }
     },
@@ -455,6 +463,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Apple"
         }
     },
@@ -540,6 +550,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Arrow1"
         }
     },
@@ -604,6 +616,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Avery"
         }
     },
@@ -687,6 +701,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Avery Walking"
         }
     },
@@ -796,12 +812,14 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Ball"
         }
     },
     {
         "name": "Ballerina",
-        "md5": "5197d3778baf55da6b81b3ada1e10021.svg",
+        "md5": "3525966db57e6b3fe88ee7c76c9d81bc.svg",
         "type": "sprite",
         "tags": [
             "people",
@@ -823,40 +841,40 @@
             "currentCostume": 0,
             "costumes": [
                 {
-                    "assetId": "5197d3778baf55da6b81b3ada1e10021",
+                    "assetId": "3525966db57e6b3fe88ee7c76c9d81bc",
                     "name": "ballerina-a",
                     "bitmapResolution": 1,
-                    "md5ext": "5197d3778baf55da6b81b3ada1e10021.svg",
+                    "md5ext": "3525966db57e6b3fe88ee7c76c9d81bc.svg",
                     "dataFormat": "svg",
-                    "rotationCenterX": 31.00008984350052,
-                    "rotationCenterY": 49
+                    "rotationCenterX": 75,
+                    "rotationCenterY": 75
                 },
                 {
-                    "assetId": "4ccb1752a43f48aafe490c9c08e58c27",
+                    "assetId": "605ad62c87a35fb50271ed93b89d9fcf",
                     "name": "ballerina-b",
                     "bitmapResolution": 1,
-                    "md5ext": "4ccb1752a43f48aafe490c9c08e58c27.svg",
+                    "md5ext": "605ad62c87a35fb50271ed93b89d9fcf.svg",
                     "dataFormat": "svg",
-                    "rotationCenterX": 29.496239121982484,
-                    "rotationCenterY": 23.769351839794098
+                    "rotationCenterX": 29.496243552524447,
+                    "rotationCenterY": 23.769347672058046
                 },
                 {
-                    "assetId": "fc02bf591dd3d91eeeb50c7424d08274",
+                    "assetId": "4acedfe3b301fe89729ad8e7939f1df6",
                     "name": "ballerina-c",
                     "bitmapResolution": 1,
-                    "md5ext": "fc02bf591dd3d91eeeb50c7424d08274.svg",
+                    "md5ext": "4acedfe3b301fe89729ad8e7939f1df6.svg",
                     "dataFormat": "svg",
-                    "rotationCenterX": 59.502591601941845,
-                    "rotationCenterY": 59.184989331170854
+                    "rotationCenterX": 59.50259204017422,
+                    "rotationCenterY": 59.18498926037006
                 },
                 {
-                    "assetId": "5aae21aee33c3f1ae943af5ea11254bf",
+                    "assetId": "ec51725c50440636d4830ff1a8ec20ab",
                     "name": "ballerina-d",
                     "bitmapResolution": 1,
-                    "md5ext": "5aae21aee33c3f1ae943af5ea11254bf.svg",
+                    "md5ext": "ec51725c50440636d4830ff1a8ec20ab.svg",
                     "dataFormat": "svg",
-                    "rotationCenterX": 36.40099014292747,
-                    "rotationCenterY": 77.95160112758442
+                    "rotationCenterX": 36.40098960393442,
+                    "rotationCenterY": 77.9515998142805
                 }
             ],
             "sounds": [
@@ -879,6 +897,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Ballerina"
         }
     },
@@ -959,6 +979,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Balloon1"
         }
     },
@@ -1027,6 +1049,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Bananas"
         }
     },
@@ -1085,6 +1109,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Baseball"
         }
     },
@@ -1151,6 +1177,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Basketball"
         }
     },
@@ -1238,6 +1266,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Bat"
         }
     },
@@ -1323,6 +1353,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Batter"
         }
     },
@@ -1390,6 +1422,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Beachball"
         }
     },
@@ -1427,13 +1461,13 @@
                     "rotationCenterY": 90
                 },
                 {
-                    "assetId": "6f303e972f33fcb7ef36d0d8012d0975",
+                    "assetId": "cad7a4a674a6b4b960c5b256a26c87e9",
                     "name": "bear-b",
                     "bitmapResolution": 1,
-                    "md5ext": "6f303e972f33fcb7ef36d0d8012d0975.svg",
+                    "md5ext": "cad7a4a674a6b4b960c5b256a26c87e9.svg",
                     "dataFormat": "svg",
                     "rotationCenterX": 94,
-                    "rotationCenterY": 190.66666666666666
+                    "rotationCenterY": 191
                 }
             ],
             "sounds": [
@@ -1456,6 +1490,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Bear"
         }
     },
@@ -1576,6 +1612,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Bear-walking"
         }
     },
@@ -1634,6 +1672,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Beetle"
         }
     },
@@ -1701,6 +1741,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Bell"
         }
     },
@@ -1796,6 +1838,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Ben"
         }
     },
@@ -1848,10 +1892,12 @@
             "visible": true,
             "x": 17,
             "y": 18,
-            "size": 100,
+            "size": 125.00000000000003,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Bowl"
         }
     },
@@ -1909,6 +1955,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Bowtie"
         }
     },
@@ -1965,6 +2013,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Bread"
         }
     },
@@ -2023,6 +2073,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Broom"
         }
     },
@@ -2162,6 +2214,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Buildings"
         }
     },
@@ -2239,6 +2293,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Butterfly 1"
         }
     },
@@ -2309,6 +2365,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Butterfly 2"
         }
     },
@@ -2367,6 +2425,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Button1"
         }
     },
@@ -2433,6 +2493,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Button2"
         }
     },
@@ -2500,6 +2562,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Button3"
         }
     },
@@ -2565,6 +2629,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Button4"
         }
     },
@@ -2633,6 +2699,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Button5"
         }
     },
@@ -2704,6 +2772,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Cake"
         }
     },
@@ -2768,6 +2838,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Calvrett"
         }
     },
@@ -2853,6 +2925,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Casey"
         }
     },
@@ -2936,6 +3010,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Cassy Dance"
         }
     },
@@ -3006,6 +3082,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Cat"
         }
     },
@@ -3065,6 +3143,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Cat 2"
         }
     },
@@ -3132,6 +3212,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Cat Flying"
         }
     },
@@ -3217,6 +3299,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Catcher"
         }
     },
@@ -3311,6 +3395,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Centaur"
         }
     },
@@ -3421,6 +3507,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Champ99"
         }
     },
@@ -3476,6 +3564,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Cheesy Puffs"
         }
     },
@@ -3552,6 +3642,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Chick"
         }
     },
@@ -3628,6 +3720,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "City Bus"
         }
     },
@@ -3681,10 +3775,12 @@
             "visible": true,
             "x": 81,
             "y": -12,
-            "size": 100,
+            "size": 90,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Cloud"
         }
     },
@@ -3770,6 +3866,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Clouds"
         }
     },
@@ -3826,6 +3924,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Convertible"
         }
     },
@@ -3883,6 +3983,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Convertible 2"
         }
     },
@@ -3956,6 +4058,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Crab"
         }
     },
@@ -4031,6 +4135,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Crystal"
         }
     },
@@ -4186,6 +4292,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "D-Money Dance"
         }
     },
@@ -4250,6 +4358,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dan"
         }
     },
@@ -4323,6 +4433,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dani"
         }
     },
@@ -4414,6 +4526,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dee"
         }
     },
@@ -4496,6 +4610,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Devin"
         }
     },
@@ -4580,6 +4696,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dinosaur1"
         }
     },
@@ -4665,6 +4783,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dinosaur2"
         }
     },
@@ -4760,6 +4880,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dinosaur3"
         }
     },
@@ -4847,6 +4969,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dinosaur4"
         }
     },
@@ -4976,6 +5100,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dinosaur5"
         }
     },
@@ -5036,6 +5162,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Diver1"
         }
     },
@@ -5096,6 +5224,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Diver2"
         }
     },
@@ -5163,6 +5293,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dog1"
         }
     },
@@ -5235,16 +5367,18 @@
             "visible": true,
             "x": 99,
             "y": 27,
-            "size": 100,
+            "size": 75,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dog2"
         }
     },
     {
         "name": "Donut",
-        "md5": "316a67c9e966fd015b4538f54be456db.svg",
+        "md5": "3abfc584e9e6c3e0ec5112fa25b73b1d.svg",
         "type": "sprite",
         "tags": [
             "food",
@@ -5272,13 +5406,13 @@
             "currentCostume": 0,
             "costumes": [
                 {
-                    "assetId": "316a67c9e966fd015b4538f54be456db",
+                    "assetId": "3abfc584e9e6c3e0ec5112fa25b73b1d",
                     "name": "donut",
                     "bitmapResolution": 1,
-                    "md5ext": "316a67c9e966fd015b4538f54be456db.svg",
+                    "md5ext": "3abfc584e9e6c3e0ec5112fa25b73b1d.svg",
                     "dataFormat": "svg",
-                    "rotationCenterX": 72.11747235252724,
-                    "rotationCenterY": 14.658782444689848
+                    "rotationCenterX": 73,
+                    "rotationCenterY": 15
                 }
             ],
             "sounds": [
@@ -5310,6 +5444,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Donut"
         }
     },
@@ -5395,6 +5531,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dorian"
         }
     },
@@ -5442,22 +5580,22 @@
                     "rotationCenterY": 67
                 },
                 {
-                    "assetId": "9e5a6cc6970ce4932a09affba70a45b0",
+                    "assetId": "4dc87d7a4a6050da4d4b6539492ad257",
                     "name": "dot-c",
                     "bitmapResolution": 1,
-                    "md5ext": "9e5a6cc6970ce4932a09affba70a45b0.svg",
+                    "md5ext": "4dc87d7a4a6050da4d4b6539492ad257.svg",
                     "dataFormat": "svg",
-                    "rotationCenterX": 50.53907324990831,
-                    "rotationCenterY": 68.96764494984302
+                    "rotationCenterX": 51,
+                    "rotationCenterY": 69
                 },
                 {
-                    "assetId": "fb047c94113ee4c6664305a338525e6a",
+                    "assetId": "ae7032906a6aab9caa74374b50037912",
                     "name": "dot-d",
                     "bitmapResolution": 1,
-                    "md5ext": "fb047c94113ee4c6664305a338525e6a.svg",
+                    "md5ext": "ae7032906a6aab9caa74374b50037912.svg",
                     "dataFormat": "svg",
-                    "rotationCenterX": 56.58074394930321,
-                    "rotationCenterY": 66.76919584395038
+                    "rotationCenterX": 57,
+                    "rotationCenterY": 67
                 }
             ],
             "sounds": [
@@ -5476,10 +5614,12 @@
             "visible": true,
             "x": -162,
             "y": -69,
-            "size": 100,
+            "size": 80,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dot"
         }
     },
@@ -5546,12 +5686,14 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dove"
         }
     },
     {
         "name": "Dragon",
-        "md5": "12ead885460d96a19132e5970839d36d.svg",
+        "md5": "a166d123597ed8896cfb7c397a9fc9c4.svg",
         "type": "sprite",
         "tags": [
             "fantasy",
@@ -5575,31 +5717,31 @@
             "currentCostume": 0,
             "costumes": [
                 {
-                    "assetId": "12ead885460d96a19132e5970839d36d",
+                    "assetId": "a166d123597ed8896cfb7c397a9fc9c4",
                     "name": "dragon-a",
                     "bitmapResolution": 1,
-                    "md5ext": "12ead885460d96a19132e5970839d36d.svg",
+                    "md5ext": "a166d123597ed8896cfb7c397a9fc9c4.svg",
                     "dataFormat": "svg",
-                    "rotationCenterX": 124.12215277545062,
-                    "rotationCenterY": 106.25815347723332
+                    "rotationCenterX": 210,
+                    "rotationCenterY": 150
                 },
                 {
-                    "assetId": "3f672475ad4ca5d1f9331cffd4223140",
+                    "assetId": "235f7a2f17fce30bd3c9cb7360c87994",
                     "name": "dragon-b",
                     "bitmapResolution": 1,
-                    "md5ext": "3f672475ad4ca5d1f9331cffd4223140.svg",
+                    "md5ext": "235f7a2f17fce30bd3c9cb7360c87994.svg",
                     "dataFormat": "svg",
-                    "rotationCenterX": 152.5,
-                    "rotationCenterY": 99
+                    "rotationCenterX": 210,
+                    "rotationCenterY": 150
                 },
                 {
-                    "assetId": "e0aa0083fa0b97da97600d4dbb2055e5",
+                    "assetId": "3a6ff36986f85e6d005cfc65d9eb4978",
                     "name": "dragon-c",
                     "bitmapResolution": 1,
-                    "md5ext": "e0aa0083fa0b97da97600d4dbb2055e5.svg",
+                    "md5ext": "3a6ff36986f85e6d005cfc65d9eb4978.svg",
                     "dataFormat": "svg",
-                    "rotationCenterX": 124.4550776985194,
-                    "rotationCenterY": 105.92484014389998
+                    "rotationCenterX": 210,
+                    "rotationCenterY": 150
                 }
             ],
             "sounds": [
@@ -5622,6 +5764,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dragon"
         }
     },
@@ -5690,6 +5834,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dragonfly"
         }
     },
@@ -5765,6 +5911,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Dress"
         }
     },
@@ -5839,6 +5987,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Drum"
         }
     },
@@ -5940,6 +6090,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Drum Kit"
         }
     },
@@ -6032,6 +6184,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Drum-cymbal"
         }
     },
@@ -6097,6 +6251,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Drum-highhat"
         }
     },
@@ -6180,6 +6336,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Drum-snare"
         }
     },
@@ -6275,6 +6433,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Drums Conga"
         }
     },
@@ -6370,6 +6530,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Drums Tabla"
         }
     },
@@ -6429,6 +6591,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Duck"
         }
     },
@@ -6487,6 +6651,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Earth"
         }
     },
@@ -6562,6 +6728,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Easel"
         }
     },
@@ -6664,6 +6832,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Egg"
         }
     },
@@ -6730,6 +6900,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Elephant"
         }
     },
@@ -6824,6 +6996,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Elf"
         }
     },
@@ -6918,6 +7092,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Fairy"
         }
     },
@@ -7013,6 +7189,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Fish"
         }
     },
@@ -7080,6 +7258,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Fishbowl"
         }
     },
@@ -7175,6 +7355,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Food Truck"
         }
     },
@@ -7240,6 +7422,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Football"
         }
     },
@@ -7295,6 +7479,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Fortune Cookie"
         }
     },
@@ -7370,6 +7556,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Fox"
         }
     },
@@ -7458,6 +7646,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Frank"
         }
     },
@@ -7518,6 +7708,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Frog"
         }
     },
@@ -7595,6 +7787,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Frog 2 "
         }
     },
@@ -7650,6 +7844,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Fruit Platter"
         }
     },
@@ -7706,6 +7902,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Fruit Salad"
         }
     },
@@ -7793,6 +7991,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Ghost"
         }
     },
@@ -7858,6 +8058,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Gift"
         }
     },
@@ -7941,6 +8143,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Giga"
         }
     },
@@ -8015,6 +8219,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Giga Walking"
         }
     },
@@ -8090,6 +8296,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Giraffe"
         }
     },
@@ -8152,10 +8360,12 @@
             "visible": true,
             "x": 43,
             "y": -10,
-            "size": 100,
+            "size": 60,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glass Water"
         }
     },
@@ -8240,6 +8450,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glasses"
         }
     },
@@ -8334,6 +8546,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Goalie"
         }
     },
@@ -8418,6 +8632,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Goblin"
         }
     },
@@ -8494,6 +8710,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Gobo"
         }
     },
@@ -8598,6 +8816,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Grasshopper"
         }
     },
@@ -8653,6 +8873,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Green Flag"
         }
     },
@@ -8738,6 +8960,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Griffin"
         }
     },
@@ -8866,6 +9090,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Guitar"
         }
     },
@@ -8994,6 +9220,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Guitar-electric1"
         }
     },
@@ -9122,6 +9350,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Guitar-electric2"
         }
     },
@@ -9196,6 +9426,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Hannah"
         }
     },
@@ -9277,6 +9509,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Hare"
         }
     },
@@ -9352,6 +9586,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Harper"
         }
     },
@@ -9436,6 +9672,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Hat1 "
         }
     },
@@ -9512,6 +9750,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Hatchling"
         }
     },
@@ -9576,10 +9816,12 @@
             "visible": true,
             "x": -31,
             "y": 40,
-            "size": 100,
+            "size": 55.00000000000001,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Heart"
         }
     },
@@ -9659,10 +9901,12 @@
             "visible": true,
             "x": -24,
             "y": -4,
-            "size": 100,
+            "size": 55.00000000000001,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Heart Candy"
         }
     },
@@ -9714,10 +9958,12 @@
             "visible": true,
             "x": 50,
             "y": 39,
-            "size": 100,
+            "size": 55.00000000000001,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Heart Face"
         }
     },
@@ -9812,6 +10058,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Hedgehog"
         }
     },
@@ -9897,6 +10145,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Hen"
         }
     },
@@ -9968,6 +10218,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Hippo1"
         }
     },
@@ -10024,6 +10276,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Home Button"
         }
     },
@@ -10102,6 +10356,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Horse"
         }
     },
@@ -10211,6 +10467,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Jaime"
         }
     },
@@ -10305,6 +10563,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Jamal"
         }
     },
@@ -10371,6 +10631,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Jar"
         }
     },
@@ -10463,10 +10725,12 @@
             "visible": true,
             "x": -163,
             "y": 99,
-            "size": 100,
+            "size": 80,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Jellyfish"
         }
     },
@@ -10562,6 +10826,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Jordyn"
         }
     },
@@ -10726,6 +10992,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Jouvi Dance"
         }
     },
@@ -10790,6 +11058,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Kai"
         }
     },
@@ -10846,6 +11116,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Key"
         }
     },
@@ -10974,6 +11246,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Keyboard"
         }
     },
@@ -11072,10 +11346,12 @@
             "visible": true,
             "x": 57,
             "y": -42,
-            "size": 100,
+            "size": 80,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Kiran"
         }
     },
@@ -11133,6 +11409,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Knight"
         }
     },
@@ -11297,6 +11575,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "LB Dance"
         }
     },
@@ -11355,6 +11635,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Ladybug1"
         }
     },
@@ -11423,6 +11705,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Ladybug2"
         }
     },
@@ -11479,6 +11763,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Laptop"
         }
     },
@@ -11538,6 +11824,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Lightning"
         }
     },
@@ -11595,6 +11883,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Line"
         }
     },
@@ -11681,6 +11971,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Lion"
         }
     },
@@ -11756,6 +12048,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Llama"
         }
     },
@@ -11813,6 +12107,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Magic Wand"
         }
     },
@@ -11904,6 +12200,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Marian"
         }
     },
@@ -11989,6 +12287,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Max"
         }
     },
@@ -12074,6 +12374,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Mermaid"
         }
     },
@@ -12211,6 +12513,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Microphone"
         }
     },
@@ -12304,6 +12608,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Milk"
         }
     },
@@ -12393,10 +12699,12 @@
             "visible": true,
             "x": -64.00000000000001,
             "y": -48.00000000000001,
-            "size": 100,
+            "size": 80,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Monet"
         }
     },
@@ -12478,10 +12786,12 @@
             "visible": true,
             "x": -61,
             "y": 24,
-            "size": 100,
+            "size": 75,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Monkey"
         }
     },
@@ -12576,6 +12886,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Motorcycle"
         }
     },
@@ -12642,6 +12954,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Mouse1"
         }
     },
@@ -12706,6 +13020,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Muffin"
         }
     },
@@ -12789,6 +13105,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Nano"
         }
     },
@@ -12845,6 +13163,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Neigh Pony"
         }
     },
@@ -12949,6 +13269,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Octopus"
         }
     },
@@ -13005,6 +13327,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Orange"
         }
     },
@@ -13071,6 +13395,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Orange2"
         }
     },
@@ -13156,6 +13482,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Outfielder"
         }
     },
@@ -13231,6 +13559,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Owl"
         }
     },
@@ -13282,10 +13612,12 @@
             "visible": true,
             "x": 47,
             "y": -12,
-            "size": 100,
+            "size": 85.000000000001,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Paddle"
         }
     },
@@ -13362,6 +13694,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Panther"
         }
     },
@@ -13428,6 +13762,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Pants"
         }
     },
@@ -13498,6 +13834,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Parrot"
         }
     },
@@ -13572,6 +13910,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Party Hats"
         }
     },
@@ -13637,6 +13977,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Pencil"
         }
     },
@@ -13718,6 +14060,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Penguin"
         }
     },
@@ -13803,6 +14147,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Penguin 2"
         }
     },
@@ -13886,6 +14232,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Pico"
         }
     },
@@ -13969,6 +14317,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Pico Walking"
         }
     },
@@ -14054,6 +14404,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Pitcher"
         }
     },
@@ -14109,6 +14461,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Planet2"
         }
     },
@@ -14191,6 +14545,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Polar Bear"
         }
     },
@@ -14266,6 +14622,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Potion"
         }
     },
@@ -14323,6 +14681,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Prince"
         }
     },
@@ -14418,6 +14778,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Princess"
         }
     },
@@ -14504,6 +14866,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Pufferfish"
         }
     },
@@ -14588,6 +14952,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Puppy"
         }
     },
@@ -14684,6 +15050,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Rabbit"
         }
     },
@@ -14778,6 +15146,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Radio"
         }
     },
@@ -14836,6 +15206,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Rainbow"
         }
     },
@@ -14921,6 +15293,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Referee"
         }
     },
@@ -14978,6 +15352,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Reindeer"
         }
     },
@@ -15060,6 +15436,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Retro Robot"
         }
     },
@@ -15158,10 +15536,12 @@
             "visible": true,
             "x": 163,
             "y": -51,
-            "size": 100,
+            "size": 80,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Ripley"
         }
     },
@@ -15260,10 +15640,12 @@
             "visible": true,
             "x": -127,
             "y": 87,
-            "size": 100,
+            "size": 80,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Robot"
         }
     },
@@ -15371,10 +15753,12 @@
             "visible": true,
             "x": 123,
             "y": 50,
-            "size": 100,
+            "size": 80,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Rocketship"
         }
     },
@@ -15431,6 +15815,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Rocks"
         }
     },
@@ -15516,6 +15902,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Rooster"
         }
     },
@@ -15580,6 +15968,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Ruby"
         }
     },
@@ -15636,6 +16026,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Sailboat"
         }
     },
@@ -15691,6 +16083,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Sam"
         }
     },
@@ -15819,6 +16213,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Saxophone"
         }
     },
@@ -15889,10 +16285,12 @@
             "visible": true,
             "x": 53,
             "y": 10,
-            "size": 100,
+            "size": 90,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Scarf"
         }
     },
@@ -15960,6 +16358,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Shark"
         }
     },
@@ -16057,6 +16457,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Shark 2"
         }
     },
@@ -16113,6 +16515,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Shirt"
         }
     },
@@ -16198,6 +16602,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Shoes"
         }
     },
@@ -16274,6 +16680,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Shorts"
         }
     },
@@ -16330,6 +16738,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Singer1"
         }
     },
@@ -16417,6 +16827,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Skeleton"
         }
     },
@@ -16492,6 +16904,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Snake"
         }
     },
@@ -16543,10 +16957,12 @@
             "visible": true,
             "x": 0,
             "y": -32,
-            "size": 100,
+            "size": 65,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Snowflake"
         }
     },
@@ -16604,6 +17020,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Snowman"
         }
     },
@@ -16662,6 +17080,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Soccer Ball"
         }
     },
@@ -16792,6 +17212,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Speaker"
         }
     },
@@ -16847,6 +17269,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Squirrel"
         }
     },
@@ -16899,10 +17323,12 @@
             "visible": true,
             "x": 55,
             "y": 44,
-            "size": 100,
+            "size": 90,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Star"
         }
     },
@@ -16971,6 +17397,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Starfish"
         }
     },
@@ -17027,6 +17455,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Stop"
         }
     },
@@ -17120,6 +17550,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Strawberry"
         }
     },
@@ -17180,6 +17612,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Sun"
         }
     },
@@ -17245,6 +17679,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Sunglasses1"
         }
     },
@@ -17310,6 +17746,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Taco"
         }
     },
@@ -17402,6 +17840,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Takeout"
         }
     },
@@ -17566,6 +18006,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Ten80 Dance"
         }
     },
@@ -17622,6 +18064,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Tennis Ball"
         }
     },
@@ -17705,6 +18149,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Tera"
         }
     },
@@ -17780,6 +18226,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Toucan"
         }
     },
@@ -17835,6 +18283,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Trampoline"
         }
     },
@@ -17888,10 +18338,12 @@
             "visible": true,
             "x": 91,
             "y": 18,
-            "size": 100,
+            "size": 95,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Tree1"
         }
     },
@@ -17958,6 +18410,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Trees"
         }
     },
@@ -18034,6 +18488,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Truck"
         }
     },
@@ -18162,6 +18618,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Trumpet"
         }
     },
@@ -18219,6 +18677,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Unicorn"
         }
     },
@@ -18278,6 +18738,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Unicorn 2"
         }
     },
@@ -18381,6 +18843,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Unicorn Running"
         }
     },
@@ -18438,6 +18902,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Wand"
         }
     },
@@ -18493,6 +18959,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Wanda"
         }
     },
@@ -18571,6 +19039,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Watermelon"
         }
     },
@@ -18629,6 +19099,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Winter Hat"
         }
     },
@@ -18716,6 +19188,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Witch"
         }
     },
@@ -18794,6 +19268,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Wizard"
         }
     },
@@ -18854,6 +19330,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Wizard Girl"
         }
     },
@@ -18911,6 +19389,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Wizard Hat"
         }
     },
@@ -18990,6 +19470,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Wizard-toad"
         }
     },
@@ -19057,6 +19539,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Zebra"
         }
     },
@@ -19113,6 +19597,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-A"
         }
     },
@@ -19169,6 +19655,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-B"
         }
     },
@@ -19225,6 +19713,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-C"
         }
     },
@@ -19281,6 +19771,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-D"
         }
     },
@@ -19337,6 +19829,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-E"
         }
     },
@@ -19393,6 +19887,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-F"
         }
     },
@@ -19449,6 +19945,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-G"
         }
     },
@@ -19505,6 +20003,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-H"
         }
     },
@@ -19561,6 +20061,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-I"
         }
     },
@@ -19617,6 +20119,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-J"
         }
     },
@@ -19673,6 +20177,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-K"
         }
     },
@@ -19729,6 +20235,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-L"
         }
     },
@@ -19785,6 +20293,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-M"
         }
     },
@@ -19841,6 +20351,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-N"
         }
     },
@@ -19897,6 +20409,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-O"
         }
     },
@@ -19953,6 +20467,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-P"
         }
     },
@@ -20009,6 +20525,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-Q"
         }
     },
@@ -20065,6 +20583,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-R"
         }
     },
@@ -20121,6 +20641,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-S"
         }
     },
@@ -20177,6 +20699,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-T"
         }
     },
@@ -20233,6 +20757,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-U"
         }
     },
@@ -20289,6 +20815,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-V"
         }
     },
@@ -20345,6 +20873,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-W"
         }
     },
@@ -20401,6 +20931,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-X"
         }
     },
@@ -20457,6 +20989,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-Y"
         }
     },
@@ -20513,6 +21047,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Block-Z"
         }
     },
@@ -20569,6 +21105,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-0"
         }
     },
@@ -20625,6 +21163,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-1"
         }
     },
@@ -20681,6 +21221,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-2"
         }
     },
@@ -20737,6 +21279,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-3"
         }
     },
@@ -20793,6 +21337,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-4"
         }
     },
@@ -20849,6 +21395,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-5"
         }
     },
@@ -20905,6 +21453,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-6"
         }
     },
@@ -20961,6 +21511,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-7"
         }
     },
@@ -21017,6 +21569,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-8"
         }
     },
@@ -21073,6 +21627,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-9"
         }
     },
@@ -21129,6 +21685,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-A"
         }
     },
@@ -21185,6 +21743,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-B"
         }
     },
@@ -21241,6 +21801,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-C"
         }
     },
@@ -21297,6 +21859,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-D"
         }
     },
@@ -21353,6 +21917,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-E"
         }
     },
@@ -21409,6 +21975,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-F"
         }
     },
@@ -21465,6 +22033,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-G"
         }
     },
@@ -21521,6 +22091,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-H"
         }
     },
@@ -21577,6 +22149,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-I"
         }
     },
@@ -21633,6 +22207,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-J"
         }
     },
@@ -21689,6 +22265,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-K"
         }
     },
@@ -21745,6 +22323,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-L"
         }
     },
@@ -21801,6 +22381,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-M"
         }
     },
@@ -21857,6 +22439,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-N"
         }
     },
@@ -21913,6 +22497,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-O"
         }
     },
@@ -21969,6 +22555,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-P"
         }
     },
@@ -22025,6 +22613,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-Q"
         }
     },
@@ -22081,6 +22671,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-R"
         }
     },
@@ -22137,6 +22729,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-S"
         }
     },
@@ -22193,6 +22787,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-T"
         }
     },
@@ -22249,6 +22845,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-U"
         }
     },
@@ -22305,6 +22903,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-V"
         }
     },
@@ -22361,6 +22961,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-W"
         }
     },
@@ -22417,6 +23019,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-X"
         }
     },
@@ -22473,6 +23077,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-Y"
         }
     },
@@ -22529,6 +23135,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Glow-Z"
         }
     },
@@ -22603,6 +23211,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-A"
         }
     },
@@ -22677,6 +23287,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-B"
         }
     },
@@ -22751,6 +23363,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-C"
         }
     },
@@ -22825,6 +23439,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-D"
         }
     },
@@ -22899,6 +23515,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-E"
         }
     },
@@ -22973,6 +23591,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-F"
         }
     },
@@ -23047,6 +23667,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-G"
         }
     },
@@ -23121,6 +23743,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-H"
         }
     },
@@ -23195,6 +23819,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-I"
         }
     },
@@ -23269,6 +23895,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-J"
         }
     },
@@ -23343,6 +23971,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-K"
         }
     },
@@ -23417,6 +24047,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-L"
         }
     },
@@ -23491,6 +24123,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-M"
         }
     },
@@ -23565,6 +24199,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-N"
         }
     },
@@ -23639,6 +24275,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-O"
         }
     },
@@ -23713,6 +24351,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-P"
         }
     },
@@ -23787,6 +24427,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-Q"
         }
     },
@@ -23861,6 +24503,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-R"
         }
     },
@@ -23931,10 +24575,12 @@
             "visible": true,
             "x": 67,
             "y": -26,
-            "size": 100,
+            "size": 105,
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-S"
         }
     },
@@ -24009,6 +24655,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-T"
         }
     },
@@ -24083,6 +24731,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-U"
         }
     },
@@ -24157,6 +24807,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-V"
         }
     },
@@ -24231,6 +24883,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-W"
         }
     },
@@ -24305,6 +24959,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-X"
         }
     },
@@ -24379,6 +25035,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-Y"
         }
     },
@@ -24453,6 +25111,8 @@
             "direction": 90,
             "draggable": false,
             "rotationStyle": "all around",
+            "scale": 1,
+            "isDraggable": false,
             "objName": "Story-Z"
         }
     }
