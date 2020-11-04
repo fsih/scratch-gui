@@ -3354,7 +3354,8 @@
             "fantasy",
             "people",
             "ipzy",
-            "emotions"
+            "emotions",
+            "zach galifianakis"
         ],
         "info": [
             0,
@@ -4203,7 +4204,7 @@
         ],
         "info": [
             0,
-            12,
+            13,
             1
         ],
         "json": {
@@ -4323,6 +4324,15 @@
                     "dataFormat": "png",
                     "rotationCenterX": 80,
                     "rotationCenterY": 240
+                },
+                {
+                    "assetId": "fcb8c2b6cf9b7e6ce9df521b2486deb3",
+                    "name": "dm top R leg2",
+                    "bitmapResolution": 2,
+                    "md5ext": "fcb8c2b6cf9b7e6ce9df521b2486deb3.png",
+                    "dataFormat": "png",
+                    "rotationCenterX": 218,
+                    "rotationCenterY": 232
                 }
             ],
             "sounds": [
@@ -11108,7 +11118,7 @@
             "sounds": [
                 {
                     "assetId": "0edb8fb88af19e6e17d0f8cf64c1d136",
-                    "name": "dance celebrate",
+                    "name": "dance celebrate2",
                     "dataFormat": "wav",
                     "format": "adpcm",
                     "rate": 22050,
